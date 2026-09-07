@@ -1,0 +1,92 @@
+{
+  "study": "CS-01",
+  "expected_tiles": 240,
+  "pixel_class": 16,
+  "hd_class": 64,
+  "packs": [
+    {
+      "id": "A",
+      "rating": 4.9,
+      "ratings_count": 512,
+      "source_url": "TODO before VERIFIED release",
+      "license": "TODO: verify pack license permits analysis; record exact license",
+      "before_dir": "case-studies/01/raw/A",
+      "after_dir": "case-studies/01/fixed/A",
+      "notes": "selection: fixed criteria (rating >= 4.7, >= 100 ratings) — see docs/CASE_STUDY_01.md §3"
+    },
+    {
+      "id": "B",
+      "rating": 4.9,
+      "ratings_count": 431,
+      "source_url": "TODO",
+      "license": "TODO",
+      "before_dir": "case-studies/01/raw/B",
+      "after_dir": "case-studies/01/fixed/B",
+      "notes": ""
+    },
+    {
+      "id": "C",
+      "rating": 4.8,
+      "ratings_count": 288,
+      "source_url": "TODO",
+      "license": "TODO",
+      "before_dir": "case-studies/01/raw/C"
+    },
+    {
+      "id": "D",
+      "rating": 4.8,
+      "ratings_count": 204,
+      "source_url": "TODO",
+      "license": "TODO",
+      "before_dir": "case-studies/01/raw/D"
+    },
+    {
+      "id": "E",
+      "rating": 4.8,
+      "ratings_count": 190,
+      "source_url": "TODO",
+      "license": "TODO",
+      "before_dir": "case-studies/01/raw/E"
+    },
+    {
+      "id": "F",
+      "rating": 4.7,
+      "ratings_count": 156,
+      "source_url": "TODO",
+      "license": "TODO",
+      "before_dir": "case-studies/01/raw/F"
+    },
+    {
+      "id": "G",
+      "rating": 4.7,
+      "ratings_count": 143,
+      "source_url": "TODO",
+      "license": "TODO",
+      "before_dir": "case-studies/01/raw/G"
+    },
+    {
+      "id": "H",
+      "rating": 4.7,
+      "ratings_count": 128,
+      "source_url": "TODO",
+      "license": "TODO",
+      "before_dir": "case-studies/01/raw/H"
+    },
+    {
+      "id": "I",
+      "rating": 4.7,
+      "ratings_count": 117,
+      "source_url": "TODO",
+      "license": "TODO",
+      "before_dir": "case-studies/01/raw/I"
+    },
+    {
+      "id": "J",
+      "rating": 4.7,
+      "ratings_count": 101,
+      "source_url": "TODO",
+      "license": "TODO",
+      "before_dir": "case-studies/01/raw/J"
+    }
+  ]
+}

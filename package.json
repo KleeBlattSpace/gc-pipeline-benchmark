@@ -10,6 +10,7 @@
     "generate-benchmark": "npm run generate",
     "test:import": "tsx internal/test-import.ts",
     "benchmark": "tsx runners/runner-a-scoring/score.ts",
+    "case-study": "tsx scripts/case-study-batch.ts",
     "tune:scoring": "tsx runners/runner-a-scoring/optimize.ts",
     "optimize:scoring": "npm run tune:scoring",
     "tune:pipeline": "tsx runners/runner-b-pipeline/optimize.ts",

@@ -4,3 +4,7 @@ dist/
 config/*.json
 field-study-01/raw-data/
 .DS_Store
+# case-study batch harness (raw/fixed assets are never committed)
+case-studies/*/raw/
+case-studies/*/fixed/
+.case-study-selftest/
