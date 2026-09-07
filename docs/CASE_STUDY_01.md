@@ -2,7 +2,8 @@
 
 ### The expectation gap, measured: 240 tiles from the most-downloaded free tilemap packs on itch.io — how big is the "asset chaos" in reality, and what does it cost on the way from graphics to gameplay? (No, the packs aren't the problem. Readiness ≠ quality — a "Reject" tile can be beautiful art that simply isn't engine-ready yet. And this time the instrument itself is on trial: half the study is about where naive QC fails *good* art.)
 
-> **DATA STATUS: STRUCTURAL — v1.1.**
+> **DATA STATUS: STRUCTURAL — v1.1. First public version (2026-09-07).**
+> Short on time? Start at the [5-minute front door](../case-studies/01/README.md) — the full study below reads in 3 sittings.
 > Real packs, real inventory, real audit, real 240-tile pilot scores — but scored with the **public pixel baseline** (`pixel-baseline@1`), a transparent heuristic, *not* the pinned TileFix core. This version frames all findings against the project's north star — **time from graphics to gameplay** — and measures the hurdle in countable work units (sheets to cut, grids to find, blob rules to re-implement, tags/exports to write). A timed manual-vs-tool trial is scoped as the follow-up (§4.6); no time-saving factor is claimed before it runs.
 > `STRUCTURAL → VERIFIED` flips only after a `--scorer core --require-core` rerun plus a Doctor (neighbor-aware) fix leg. See [data provenance](#9-limitations--data-provenance).
 >
