@@ -10,6 +10,7 @@
     "generate-benchmark": "npm run generate",
     "test:import": "tsx internal/test-import.ts",
     "benchmark": "tsx runners/runner-a-scoring/score.ts",
+    "case-study": "tsx scripts/case-study-batch.ts",
     "tune:scoring": "tsx runners/runner-a-scoring/optimize.ts",
     "optimize:scoring": "npm run tune:scoring",
     "tune:pipeline": "tsx runners/runner-b-pipeline/optimize.ts",
@@ -24,7 +25,9 @@
     "assets:hd-fetch": "bash scripts/fetch-hd-reference-assets.sh",
     "assets:verify": "python3 scripts/verify-pixel-base-tiles.py",
     "test:baseline": "node scripts/test-pipeline-on-perfect.mjs",
-    "test": "tsx --test tests/*.test.ts"
+    "test": "tsx --test tests/*.test.ts",
+    "case-audit": "tsx scripts/audit-delivery-format.ts",
+    "case-correlate": "tsx scripts/analyze-correlation.ts"
   },
   "dependencies": {
     "fs-extra": "^11.2.0",
