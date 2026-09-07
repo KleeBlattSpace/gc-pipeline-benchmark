@@ -101,4 +101,4 @@ CC BY 4.0 text/data · CC0 fixtures (Kenney, license file) · sources in `case-s
 4. The Doctor appears as the answer to a question the reader already has.
 5. Same provenance block in every study; VERIFIED requires dataset version + core commit + aggregation logic pinned.
 6. Include the delivery-format audit (Gap 0): atlas-only share of packs and % of tiles locked in sheets — atomization precedes quality.
-7. **Frame the user, never the creator:** readiness ≠ quality; a Reject tile is not bad art; the story is the expectation gap (expert assets presuppose expert workflows — the mechanical half is automatable).: atlas-only share of packs and % of tiles locked in sheets — atomization precedes quality.
+7. **Frame the user, never the creator:** readiness ≠ quality; a Reject tile is not bad art; the story is the expectation gap (expert assets presuppose expert workflows — the mechanical half is automatable).
