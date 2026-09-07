@@ -3,16 +3,55 @@ on:
   workflow_run:
     workflows: ["Run benchmark"]
     types: [completed]
+
+concurrency:
+  group: publish-benchmark-results
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
 jobs:
   publish:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    # Only publish from green runs of the default branch. Forked-PR runs must never
+    # push generated artefacts back to main.
+    if: >-
+      ${{ github.event.workflow_run.conclusion == 'success'
+      && github.event.workflow_run.event == 'push'
+      && github.event.workflow_run.head_branch == github.event.repository.default_branch }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # push the regenerated results.json back to the default branch
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with: { node-version: 22, cache: npm }
+
+      - run: npm ci
+
+      - name: Regenerate benchmark results
+        run: |
+          npm run generate
+          npm run ground-truth
+          npm run benchmark
+          npm run validate
+
       - name: Commit generated results
         run: |
+          set -euo pipefail
+          file=public/benchmark/results.json
+          # generated_at changes on every run; ignore timestamp-only churn.
+          before=$(git show "HEAD:$file" 2>/dev/null | jq -S 'del(.generated_at)' || echo 'null')
+          after=$(jq -S 'del(.generated_at)' "$file")
+          if [ "$before" = "$after" ]; then
+            echo "No substantive change in $file - nothing to publish."
+            exit 0
+          fi
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add public/benchmark/results.json
-          git diff --cached --quiet || git commit -m "chore: publish benchmark results"
-          git push
+          git add "$file"
+          git commit -m "chore: publish benchmark results [skip ci]"
+          git push origin "HEAD:${{ github.event.repository.default_branch }}"

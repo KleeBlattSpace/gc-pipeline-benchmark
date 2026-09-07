@@ -6,16 +6,24 @@ on:
       - 'assets/**'
       - '.github/workflows/tilesmith-dogfooding.yml'
 
+concurrency:
+  group: tilesmith-dogfooding-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
-  pull-requests: write
 
 jobs:
   tilesmith-qc:
     name: Score benchmark tiles
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write # upsert the QC report comment on the triggering PR
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
 
       - name: Verify TileSmith secret availability
         env:
@@ -24,8 +32,9 @@ jobs:
           if [ -n "$TILESMITH_API_KEY" ]; then
             echo "TILESMITH_API_KEY=present"
           else
+            # Secrets are not exposed to forked PRs. Report it and let the action emit its
+            # documented fork-safe notice instead of hard-failing the required check.
             echo "TILESMITH_API_KEY=missing"
-            exit 1
           fi
 
       - name: Run TileSmith QC
@@ -42,7 +51,7 @@ jobs:
 
       - name: Upload TileSmith report and overlays
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: tilesmith-qc-report
           path: tilesmith-report/
