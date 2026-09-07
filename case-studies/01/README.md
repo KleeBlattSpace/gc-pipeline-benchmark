@@ -2,7 +2,7 @@
 
 ![release](https://img.shields.io/badge/release-v1.1-blue) ![data status](https://img.shields.io/badge/data-STRUCTURAL-orange) ![license](https://img.shields.io/badge/license-CC_BY_4.0-lightgrey)
 
-**The 5-minute version** — 📖 [full study](../../docs/CASE_STUDY_01.md) · 📦 [data](./data/) · v1.1, first public version (2026-09-07)
+**The 5-minute version** — 📖 [full study](../../docs/CASE_STUDY_01.md) · 📦 [data](./data/) · 🇩🇪 [Deutsche Fassung](../../docs/CASE_STUDY_01_DE.md) · v1.1, first public version (2026-09-07)
 
 > We audited 10 top free tilemap packs from itch.io (**682 images inventoried, 240 tiles scored**) to measure the expectation gap: what expert-made assets *demand from users* before gameplay can happen.
 > The packs are never the villain; the expectation is. **Readiness ≠ quality.**
@@ -63,4 +63,4 @@ Full chain in [§7](../../docs/CASE_STUDY_01.md#7-reproduce-this-study--score-yo
 
 ---
 
-*📖 [Read the full study](../../docs/CASE_STUDY_01.md) · ✅ [Checklist for pack authors](../../docs/CASE_STUDY_01.md#6-the-7-point-checklist-before-you-ship-a-free-pack) · CC BY 4.0*
+*📖 [Read the full study](../../docs/CASE_STUDY_01.md) · ✅ [Checklist for pack authors](../../docs/CASE_STUDY_01.md#6-the-7-point-checklist-before-you-ship-a-free-pack) · 🇩🇪 [Deutsche Fassung](../../docs/CASE_STUDY_01_DE.md) · CC BY 4.0*

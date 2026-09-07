@@ -4,6 +4,7 @@
 
 > **DATA STATUS: STRUCTURAL — v1.1. First public version (2026-09-07).**
 > Short on time? Start at the [5-minute front door](../case-studies/01/README.md) — the full study below reads in 3 sittings.
+> 🇩🇪 Deutsche Fassung: [CASE_STUDY_01_DE.md](CASE_STUDY_01_DE.md).
 > Real packs, real inventory, real audit, real 240-tile pilot scores — but scored with the **public pixel baseline** (`pixel-baseline@1`), a transparent heuristic, *not* the pinned TileFix core. This version frames all findings against the project's north star — **time from graphics to gameplay** — and measures the hurdle in countable work units (sheets to cut, grids to find, blob rules to re-implement, tags/exports to write). A timed manual-vs-tool trial is scoped as the follow-up (§4.6); no time-saving factor is claimed before it runs.
 > `STRUCTURAL → VERIFIED` flips only after a `--scorer core --require-core` rerun plus a Doctor (neighbor-aware) fix leg. See [data provenance](#9-limitations--data-provenance).
 >
@@ -181,14 +182,14 @@ Raw heuristic pooled output: 30 % atlas-only · 556 loose images · **242,126 "t
 Three readings, one per step:
 
 1. **Reverse-engineering is needed 9 times out of 10.** Only G ships the grid in machine form and only J skips cutting entirely. The single biggest sheet (F: 4,096 cells, 828 non-empty) is a full working day of cutting and naming *before the first gameplay test* — at any plausible per-cell rate.
-2. **The logic exists — as pictures.** Pack A's bitmask reference diagrams and pack G's autotile guides are exactly the "mathematical transitions" beginners must program (the 47-tile-blob family) — drawn as documentation, not shipped as rules. Only G additionally ships the rules in machine form (Tiled wangsets). For 8 of 10 packs, step 2 starts from zero: user stares at pixels, re-derives the combinatorics, implements by hand. That is the quit-frustration step, measured: 7 packs ship *nothing*, 1 ships pictures, 1 (+J n/a) ships rules.
+2. **The logic exists — as pictures.** Pack A's bitmask reference diagrams and pack G's autotile guides are exactly the "mathematical transitions" beginners must program (the 47-tile-blob family) — drawn as documentation, not shipped as rules. Only G additionally ships the rules in machine form (Tiled wangsets). For 8 of 10 packs, step 2 starts from zero: user stares at pixels, re-derives the combinatorics, implements by hand. That is the quit-frustration step, measured: 7 packs ship *nothing*, 1 ships pictures, 1 (+J n/a) ships rules. An independent practitioner account of implementing a 47-tile bitmask set reports the same wall from the other side: mapping bitmasks to tiles "took a lot of manual effort" [2].
 3. **Tagging/export starts from zero almost everywhere.** 9 packs ship no machine-readable metadata at all — no tags ("solid", "water", "ramp"), no JSON, no engine-ready sidecar. Even experts who draw perfectly (and these packs *are* beautifully drawn) leave the mass-tagging and formatting to the user — the professional drudgery the project wants to automate. G's 51 `.tsx`/`.tmx` files are the lone exception, and they serve Tiled, not engines directly.
 
 **The dedup burden (new):** pack A ships 7 byte-identical file pairs (`Basic Furniture.png` = `Basic_Furniture.png`, …) and B ships 1 — users must discover and resolve duplicates before importing. Petty individually; exactly the automatable drudgery professionals outsource.
 
 **Why do creators ship atlases instead of ready-to-use tiles?** *(interpretation — see limitations)*
 
-- **It is rational pro workflow.** Artists draw in sheets, batch-export once, keep file counts low — and engines want texture atlases at runtime anyway. The format is right; the *missing piece* is atomization tooling on the consumer side.
+- **It is rational pro workflow.** Artists draw in sheets, batch-export once, keep file counts low — and engines want texture atlases at runtime anyway (batched sprites sharing one atlas can render in a single draw call [3]). The format is right; the *missing piece* is atomization tooling on the consumer side.
 - **But it externalizes the hard part onto users.** Cutting and naming is step one; the wall is autotiling combinatorics: two ground tile types need a 47-tile blob set to blend in every configuration (8-neighbor bitmask with reduction [1][2]); four terrain types with transitions multiply that further [2]. Beginners see "500 tiles!" and still can't build a walkable floor. Pack J proves the alternative is possible (101 named loose files) — the barrier is a choice (H3 ✓), even if J's projection needs its own metrics.
 - **The expert's counterpoint.** Hand-drawn and hand-assembled stays better at the top end — but mass-tagging and formatting hundreds of hand-drawn tiles into engine-ready data is precisely the work professional studios outsource. It is automatable drudgery on both ends.
 
@@ -335,4 +336,3 @@ Background claims only — all measurements are the study's own (§9). Accessed 
 - [1] Red Blob Games, "Autotiling" — bitmask-to-tileset combinatorics (4-neighbor → 16 tiles; 8-neighbor → 47 with reduction; engine layout notes). <https://www.redblobgames.com/articles/autotile/claude/>
 - [2] Excalibur.js, "Dual Tilemap Autotiling Technique" — blob/bitmask practice (~47–56 tiles), multi-terrain complexity growth, and the manual bitmask-mapping effort. <https://excaliburjs.com/blog/Dual%20Tilemap%20Autotiling%20Technique/>
 - [3] Game-Developers.org, "What Is Sprite Atlas in Unity? The Complete Technical Guide" — atlas batching mechanics (shared-atlas sprites rendering in a single draw call). <https://game-developers.org/what-is-sprite-atlas-in-unity>
-with 🍀 by [KleeBlattSpace](https://github.com/KleeBlattSpace).
