@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-09-07T11:33:29.409Z",
+  "n": 8,
+  "spearman_rho": -0.619,
+  "perm_p": 0.124,
+  "partial_rho_controlling_atlas_share": -0.423,
+  "exceptions_by_residual": [
+    {
+      "pack": "C",
+      "residual": 10.330127018922193
+    },
+    {
+      "pack": "G",
+      "residual": 8.474358296526967
+    },
+    {
+      "pack": "H",
+      "residual": 7.855768722395226
+    }
+  ],
+  "verdict": "not consistent with H1 at α=0.05 — popularity does not predict failure here; report honestly (a null is also a finding)",
+  "reminder": "pre-registered in CS-01 §3.1 — report ρ and p together; n=10 is pilot-grade; never headline \"proven\"",
+  "packs": [
+    {
+      "id": "A",
+      "downloads": null,
+      "rank": 1,
+      "failPct": 91.66666666666666,
+      "tiles": 24
+    },
+    {
+      "id": "C",
+      "downloads": null,
+      "rank": 3,
+      "failPct": 100,
+      "tiles": 24
+    },
+    {
+      "id": "D",
+      "downloads": null,
+      "rank": 4,
+      "failPct": 95.83333333333334,
+      "tiles": 24
+    },
+    {
+      "id": "F",
+      "downloads": null,
+      "rank": 7,
+      "failPct": 91.66666666666666,
+      "tiles": 24
+    },
+    {
+      "id": "G",
+      "downloads": null,
+      "rank": 10,
+      "failPct": 100,
+      "tiles": 24
+    },
+    {
+      "id": "H",
+      "downloads": null,
+      "rank": 14,
+      "failPct": 100,
+      "tiles": 24
+    },
+    {
+      "id": "I",
+      "downloads": null,
+      "rank": 23,
+      "failPct": 100,
+      "tiles": 24
+    },
+    {
+      "id": "J",
+      "downloads": null,
+      "rank": 35,
+      "failPct": 100,
+      "tiles": 24
+    }
+  ]
+}

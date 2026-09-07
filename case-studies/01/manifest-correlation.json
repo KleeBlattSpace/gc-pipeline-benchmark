@@ -1,0 +1,113 @@
+{
+  "study": "CS-01-correlation",
+  "expected_tiles": 240,
+  "pixel_class": 16,
+  "hd_class": 64,
+  "selection": "rank-correlation subset: 8 packs with known itch popularity ranks; B and E excluded (substituted packs, rank n/a) \u2014 see SUBSTITUTIONS.md",
+  "packs": [
+    {
+      "id": "A",
+      "rank": 1,
+      "name": "Sprout Lands - Asset Pack",
+      "creator": "Cup Nooble",
+      "license": "custom \u2014 free tier NON-COMMERCIAL (premium $3.99 commercial); study publishes aggregates only, no images",
+      "rating": 4.9,
+      "ratings_count": 361,
+      "downloads": null,
+      "before_dir": "case-studies/01/raw/A/_tiles",
+      "source_url": "https://cupnooble.itch.io/sprout-lands-asset-pack",
+      "notes": ""
+    },
+    {
+      "id": "C",
+      "rank": 3,
+      "name": "2D Pixel Dungeon Asset Pack",
+      "creator": "Pixel_Poem",
+      "license": "custom \u2014 free & commercial projects OK, modification OK, no redistribution/resale",
+      "rating": 4.9,
+      "ratings_count": 157,
+      "downloads": null,
+      "before_dir": "case-studies/01/raw/C/_tiles",
+      "source_url": "https://pixel-poem.itch.io/dungeon-assetpuck",
+      "notes": ""
+    },
+    {
+      "id": "D",
+      "rank": 4,
+      "name": "Pixel Art Top Down - Basic",
+      "creator": "Cainos",
+      "license": "custom \u2014 free & commercial projects OK, modification OK, no redistribution/resale",
+      "rating": 4.9,
+      "ratings_count": 226,
+      "downloads": null,
+      "before_dir": "case-studies/01/raw/D/_tiles",
+      "source_url": "https://cainos.itch.io/pixel-art-top-down-basic",
+      "notes": ""
+    },
+    {
+      "id": "F",
+      "rank": 7,
+      "name": "Pixel Fantasy Caves",
+      "creator": "Szadi art.",
+      "license": "custom \u2014 'use this asset personally and commercially'",
+      "rating": 4.9,
+      "ratings_count": 130,
+      "downloads": null,
+      "before_dir": "case-studies/01/raw/F/_tiles",
+      "source_url": "https://szadiart.itch.io/pixel-fantasy-caves",
+      "notes": ""
+    },
+    {
+      "id": "G",
+      "rank": 10,
+      "name": "Gentle Forest (Mana Seed)",
+      "creator": "Seliel the Shaper",
+      "license": "custom \u2014 Mana Seed User License (external link on page); free version with paid palettes",
+      "rating": null,
+      "ratings_count": null,
+      "downloads": null,
+      "before_dir": "case-studies/01/raw/G/_tiles",
+      "source_url": "https://seliel-the-shaper.itch.io/gentle-forest",
+      "notes": ""
+    },
+    {
+      "id": "H",
+      "rank": 14,
+      "name": "Kings and Pigs",
+      "creator": "Pixel Frog",
+      "license": "CC0 1.0 Universal (badge + metadata field)",
+      "rating": 4.9,
+      "ratings_count": 198,
+      "downloads": null,
+      "before_dir": "case-studies/01/raw/H/_tiles",
+      "source_url": "https://pixelfrog-assets.itch.io/kings-and-pigs",
+      "notes": ""
+    },
+    {
+      "id": "I",
+      "rank": 23,
+      "name": "16x16 Industrial Tileset",
+      "creator": "0x72",
+      "license": "CC0 1.0 Universal ('use this tileset for whatever you like (CC-0)')",
+      "rating": 4.8,
+      "ratings_count": 91,
+      "downloads": null,
+      "before_dir": "case-studies/01/raw/I/_tiles",
+      "source_url": "https://0x72.itch.io/16x16-industrial-tileset",
+      "notes": ""
+    },
+    {
+      "id": "J",
+      "rank": 35,
+      "name": "Isometric Tiles - Pixel Art",
+      "creator": "Devil's Workshop",
+      "license": "CC0 1.0 Universal (metadata field)",
+      "rating": 5.0,
+      "ratings_count": 10,
+      "downloads": null,
+      "before_dir": "case-studies/01/raw/J/_tiles",
+      "source_url": "https://devilsworkshop.itch.io/isometric-tiles-pixel-art",
+      "notes": ""
+    }
+  ]
+}

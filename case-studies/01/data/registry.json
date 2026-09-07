@@ -1,0 +1,1692 @@
+{
+  "seed": 20260907,
+  "per_pack": 24,
+  "generated_at": "2026-09-07T11:30:51.536Z",
+  "packs": {
+    "A": {
+      "tile_size": 16,
+      "truth": "visual+author (Cup Nooble 16px family; all sheets 16-multiples, overlay-verified)",
+      "sheets": [
+        {
+          "file": "Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png",
+          "tile": "16x16",
+          "dims": "176x112",
+          "addressable": 77,
+          "skipped_empty": 9,
+          "skipped_excluded": 0,
+          "pooled": 68
+        },
+        {
+          "file": "Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png",
+          "tile": "16x16",
+          "dims": "176x144",
+          "addressable": 99,
+          "skipped_empty": 15,
+          "skipped_excluded": 0,
+          "pooled": 84
+        },
+        {
+          "file": "Sprout Lands - Sprites - Basic pack/Tilesets/Tilled Dirt.png",
+          "tile": "16x16",
+          "dims": "128x128",
+          "addressable": 64,
+          "skipped_empty": 4,
+          "skipped_excluded": 0,
+          "pooled": 60
+        },
+        {
+          "file": "Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt.png",
+          "tile": "16x16",
+          "dims": "176x112",
+          "addressable": 77,
+          "skipped_empty": 9,
+          "skipped_excluded": 0,
+          "pooled": 68
+        },
+        {
+          "file": "Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_v2.png",
+          "tile": "16x16",
+          "dims": "176x112",
+          "addressable": 77,
+          "skipped_empty": 9,
+          "skipped_excluded": 0,
+          "pooled": 68
+        },
+        {
+          "file": "Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_Wide.png",
+          "tile": "16x16",
+          "dims": "176x112",
+          "addressable": 77,
+          "skipped_empty": 13,
+          "skipped_excluded": 0,
+          "pooled": 64
+        },
+        {
+          "file": "Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_Wide_v2.png",
+          "tile": "16x16",
+          "dims": "176x112",
+          "addressable": 77,
+          "skipped_empty": 13,
+          "skipped_excluded": 0,
+          "pooled": 64
+        },
+        {
+          "file": "Sprout Lands - Sprites - Basic pack/Tilesets/Water.png",
+          "tile": "16x16",
+          "dims": "64x16",
+          "addressable": 4,
+          "skipped_empty": 0,
+          "skipped_excluded": 0,
+          "pooled": 4
+        },
+        {
+          "file": "Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png",
+          "tile": "16x16",
+          "dims": "64x64",
+          "addressable": 16,
+          "skipped_empty": 0,
+          "skipped_excluded": 0,
+          "pooled": 16
+        },
+        {
+          "file": "Sprout Lands - Sprites - Basic pack/Tilesets/Doors.png",
+          "tile": "16x16",
+          "dims": "16x64",
+          "addressable": 4,
+          "skipped_empty": 0,
+          "skipped_excluded": 0,
+          "pooled": 4
+        },
+        {
+          "file": "Sprout Lands - Sprites - Basic pack/Tilesets/Wooden House.png",
+          "tile": "16x16",
+          "dims": "112x80",
+          "addressable": 35,
+          "skipped_empty": 5,
+          "skipped_excluded": 0,
+          "pooled": 30
+        },
+        {
+          "file": "Sprout Lands - Sprites - Basic pack/Tilesets/Wooden_House_Roof_Tilset.png",
+          "tile": "16x16",
+          "dims": "112x80",
+          "addressable": 35,
+          "skipped_empty": 2,
+          "skipped_excluded": 0,
+          "pooled": 33
+        },
+        {
+          "file": "Sprout Lands - Sprites - Basic pack/Tilesets/Wooden_House_Walls_Tilset.png",
+          "tile": "16x16",
+          "dims": "80x48",
+          "addressable": 15,
+          "skipped_empty": 1,
+          "skipped_excluded": 0,
+          "pooled": 14
+        },
+        {
+          "file": "Sprout Lands - Sprites - Basic pack/Objects/Paths.png",
+          "tile": "16x16",
+          "dims": "64x64",
+          "addressable": 16,
+          "skipped_empty": 6,
+          "skipped_excluded": 0,
+          "pooled": 10
+        }
+      ],
+      "pool": 587,
+      "sampled": 24,
+      "sample": [
+        {
+          "file": "a-01.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_v2.png @ cell (4,3)",
+          "sha": "48d29b877903"
+        },
+        {
+          "file": "a-02.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_v2.png @ cell (5,0)",
+          "sha": "2da1b81f384d"
+        },
+        {
+          "file": "a-03.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png @ cell (5,4)",
+          "sha": "3428994fa5ac"
+        },
+        {
+          "file": "a-04.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png @ cell (0,3)",
+          "sha": "cf62ce8005e2"
+        },
+        {
+          "file": "a-05.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Wooden House.png @ cell (2,2)",
+          "sha": "39ae3499fea6"
+        },
+        {
+          "file": "a-06.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png @ cell (7,2)",
+          "sha": "cb7fe4732f1b"
+        },
+        {
+          "file": "a-07.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_v2.png @ cell (4,6)",
+          "sha": "9aae297d9dc3"
+        },
+        {
+          "file": "a-08.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Wooden_House_Roof_Tilset.png @ cell (1,4)",
+          "sha": "6a8383f0c04f"
+        },
+        {
+          "file": "a-09.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Fences.png @ cell (2,0)",
+          "sha": "c294e04050b6"
+        },
+        {
+          "file": "a-10.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Tilled Dirt.png @ cell (3,0)",
+          "sha": "ffc8bb592d5e"
+        },
+        {
+          "file": "a-11.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_Wide_v2.png @ cell (1,0)",
+          "sha": "90fa5730ebb8"
+        },
+        {
+          "file": "a-12.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png @ cell (6,4)",
+          "sha": "5c0743138418"
+        },
+        {
+          "file": "a-13.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Wooden House.png @ cell (4,0)",
+          "sha": "8254a442bef4"
+        },
+        {
+          "file": "a-14.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_v2.png @ cell (0,3)",
+          "sha": "fe005e81900f"
+        },
+        {
+          "file": "a-15.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Water.png @ cell (1,0)",
+          "sha": "f019825c1f7e"
+        },
+        {
+          "file": "a-16.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt.png @ cell (8,2)",
+          "sha": "279a698e343d"
+        },
+        {
+          "file": "a-17.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Grass.png @ cell (5,1)",
+          "sha": "19a9bdc7d2c6"
+        },
+        {
+          "file": "a-18.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png @ cell (3,6)",
+          "sha": "a809155b8519"
+        },
+        {
+          "file": "a-19.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Wooden_House_Roof_Tilset.png @ cell (0,2)",
+          "sha": "a227c40968ca"
+        },
+        {
+          "file": "a-20.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Wooden_House_Roof_Tilset.png @ cell (1,3)",
+          "sha": "9b340d0c0760"
+        },
+        {
+          "file": "a-21.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_Wide.png @ cell (9,6)",
+          "sha": "628dc71501c1"
+        },
+        {
+          "file": "a-22.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Wooden_House_Roof_Tilset.png @ cell (2,4)",
+          "sha": "b0c89542ff52"
+        },
+        {
+          "file": "a-23.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Tilled_Dirt_Wide_v2.png @ cell (8,5)",
+          "sha": "9a60b6a62529"
+        },
+        {
+          "file": "a-24.png",
+          "from": "Sprout Lands - Sprites - Basic pack/Tilesets/Wooden House.png @ cell (3,2)",
+          "sha": "8061ef7c1b41"
+        }
+      ]
+    },
+    "B": {
+      "tile_size": 16,
+      "truth": "visual+author (Cup Nooble 16px family; GrassLayers/snow/ground sheets overlay-verified)",
+      "sheets": [
+        {
+          "file": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/Grass_Tile_Layers.png",
+          "tile": "16x16",
+          "dims": "176x400",
+          "addressable": 275,
+          "skipped_empty": 39,
+          "skipped_excluded": 0,
+          "pooled": 236
+        },
+        {
+          "file": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/Grass_Tile_layers2.png",
+          "tile": "16x16",
+          "dims": "160x400",
+          "addressable": 250,
+          "skipped_empty": 18,
+          "skipped_excluded": 0,
+          "pooled": 232
+        },
+        {
+          "file": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/Grass_Tile_layers3.png",
+          "tile": "16x16",
+          "dims": "176x400",
+          "addressable": 275,
+          "skipped_empty": 39,
+          "skipped_excluded": 0,
+          "pooled": 236
+        },
+        {
+          "file": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/Grass_Tile_layers4.png",
+          "tile": "16x16",
+          "dims": "176x400",
+          "addressable": 275,
+          "skipped_empty": 41,
+          "skipped_excluded": 0,
+          "pooled": 234
+        },
+        {
+          "file": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/blue_tint_Grass_Tile_Layers.png",
+          "tile": "16x16",
+          "dims": "176x400",
+          "addressable": 275,
+          "skipped_empty": 39,
+          "skipped_excluded": 0,
+          "pooled": 236
+        },
+        {
+          "file": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/blue_tint_Grass_Tile_Layers2.png",
+          "tile": "16x16",
+          "dims": "176x400",
+          "addressable": 275,
+          "skipped_empty": 40,
+          "skipped_excluded": 0,
+          "pooled": 235
+        },
+        {
+          "file": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/blue_tint_Grass_Tile_Layers3.png",
+          "tile": "16x16",
+          "dims": "176x400",
+          "addressable": 275,
+          "skipped_empty": 39,
+          "skipped_excluded": 0,
+          "pooled": 236
+        },
+        {
+          "file": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/blue_tint_Grass_Tile_Layers4.png",
+          "tile": "16x16",
+          "dims": "176x400",
+          "addressable": 275,
+          "skipped_empty": 39,
+          "skipped_excluded": 0,
+          "pooled": 236
+        },
+        {
+          "file": "Sprout Sorry pack/Early Access/Sprout winter/snow tiles 1.png",
+          "tile": "16x16",
+          "dims": "176x400",
+          "addressable": 275,
+          "skipped_empty": 44,
+          "skipped_excluded": 0,
+          "pooled": 231
+        },
+        {
+          "file": "Sprout Sorry pack/Early Access/Sprout winter/snow tiles 2.png",
+          "tile": "16x16",
+          "dims": "176x400",
+          "addressable": 275,
+          "skipped_empty": 43,
+          "skipped_excluded": 0,
+          "pooled": 232
+        },
+        {
+          "file": "Sprout Sorry pack/Early Access/Sprout winter/ice tiles.png",
+          "tile": "16x16",
+          "dims": "64x48",
+          "addressable": 12,
+          "skipped_empty": 2,
+          "skipped_excluded": 0,
+          "pooled": 10
+        },
+        {
+          "file": "Sprout Sorry pack/Early Access/Dungeon Pack/tiles/Dungeon_walls.png",
+          "tile": "16x16",
+          "dims": "192x352",
+          "addressable": 264,
+          "skipped_empty": 45,
+          "skipped_excluded": 0,
+          "pooled": 219
+        },
+        {
+          "file": "Sprout Sorry pack/Early Access/Dungeon Pack/tiles/ground_dirt_orange.png",
+          "tile": "16x16",
+          "dims": "176x176",
+          "addressable": 121,
+          "skipped_empty": 11,
+          "skipped_excluded": 0,
+          "pooled": 110
+        },
+        {
+          "file": "Sprout Sorry pack/Early Access/Dungeon Pack/tiles/ground_dirt_orange_dark.png",
+          "tile": "16x16",
+          "dims": "176x176",
+          "addressable": 121,
+          "skipped_empty": 11,
+          "skipped_excluded": 0,
+          "pooled": 110
+        },
+        {
+          "file": "Sprout Sorry pack/Early Access/Dungeon Pack/tiles/Rails.png",
+          "tile": "16x16",
+          "dims": "64x48",
+          "addressable": 12,
+          "skipped_empty": 2,
+          "skipped_excluded": 0,
+          "pooled": 10
+        },
+        {
+          "file": "Sprout Sorry pack/Early Access/Dungeon Pack/tiles/dungeon_walls_decor_gates.png",
+          "tile": "16x16",
+          "dims": "112x112",
+          "addressable": 49,
+          "skipped_empty": 13,
+          "skipped_excluded": 0,
+          "pooled": 36
+        }
+      ],
+      "pool": 2839,
+      "sampled": 24,
+      "sample": [
+        {
+          "file": "b-01.png",
+          "from": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/blue_tint_Grass_Tile_Layers2.png @ cell (4,5)",
+          "sha": "4b2a61d5a56b"
+        },
+        {
+          "file": "b-02.png",
+          "from": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/blue_tint_Grass_Tile_Layers.png @ cell (8,14)",
+          "sha": "bf557aae950f"
+        },
+        {
+          "file": "b-03.png",
+          "from": "Sprout Sorry pack/Early Access/Dungeon Pack/tiles/Dungeon_walls.png @ cell (5,16)",
+          "sha": "71c973b5c663"
+        },
+        {
+          "file": "b-04.png",
+          "from": "Sprout Sorry pack/Early Access/Sprout winter/snow tiles 2.png @ cell (4,2)",
+          "sha": "26d6f0689f2b"
+        },
+        {
+          "file": "b-05.png",
+          "from": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/Grass_Tile_layers4.png @ cell (3,20)",
+          "sha": "101d8cd192df"
+        },
+        {
+          "file": "b-06.png",
+          "from": "Sprout Sorry pack/Early Access/Sprout winter/snow tiles 2.png @ cell (6,3)",
+          "sha": "1d9780fe945f"
+        },
+        {
+          "file": "b-07.png",
+          "from": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/Grass_Tile_layers2.png @ cell (1,24)",
+          "sha": "ae71b5ed58f5"
+        },
+        {
+          "file": "b-08.png",
+          "from": "Sprout Sorry pack/Early Access/Dungeon Pack/tiles/Dungeon_walls.png @ cell (5,8)",
+          "sha": "532f6eb11574"
+        },
+        {
+          "file": "b-09.png",
+          "from": "Sprout Sorry pack/Early Access/Sprout winter/snow tiles 1.png @ cell (2,8)",
+          "sha": "42173678c33e"
+        },
+        {
+          "file": "b-10.png",
+          "from": "Sprout Sorry pack/Early Access/Sprout winter/snow tiles 1.png @ cell (9,15)",
+          "sha": "5f26e62ad193"
+        },
+        {
+          "file": "b-11.png",
+          "from": "Sprout Sorry pack/Early Access/Sprout winter/snow tiles 2.png @ cell (5,22)",
+          "sha": "0d8d760d7db2"
+        },
+        {
+          "file": "b-12.png",
+          "from": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/Grass_Tile_layers4.png @ cell (8,19)",
+          "sha": "688245e55c6d"
+        },
+        {
+          "file": "b-13.png",
+          "from": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/Grass_Tile_layers4.png @ cell (1,18)",
+          "sha": "f43423e20bc2"
+        },
+        {
+          "file": "b-14.png",
+          "from": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/blue_tint_Grass_Tile_Layers.png @ cell (7,14)",
+          "sha": "d7263e0c1e7d"
+        },
+        {
+          "file": "b-15.png",
+          "from": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/Grass_Tile_layers3.png @ cell (1,0)",
+          "sha": "f03b01fc2a5a"
+        },
+        {
+          "file": "b-16.png",
+          "from": "Sprout Sorry pack/Early Access/Sprout winter/snow tiles 2.png @ cell (1,20)",
+          "sha": "852a401e9a6e"
+        },
+        {
+          "file": "b-17.png",
+          "from": "Sprout Sorry pack/Early Access/Dungeon Pack/tiles/Dungeon_walls.png @ cell (7,14)",
+          "sha": "bb814065872c"
+        },
+        {
+          "file": "b-18.png",
+          "from": "Sprout Sorry pack/Early Access/Sprout winter/snow tiles 2.png @ cell (5,6)",
+          "sha": "73abf2972fee"
+        },
+        {
+          "file": "b-19.png",
+          "from": "Sprout Sorry pack/Early Access/Sprout winter/snow tiles 1.png @ cell (0,17)",
+          "sha": "c1f6b9933bb0"
+        },
+        {
+          "file": "b-20.png",
+          "from": "Sprout Sorry pack/Early Access/Sprout winter/snow tiles 1.png @ cell (5,11)",
+          "sha": "b79687cfa285"
+        },
+        {
+          "file": "b-21.png",
+          "from": "Sprout Sorry pack/Early Access/Sprout winter/snow tiles 1.png @ cell (3,10)",
+          "sha": "30eac98d5414"
+        },
+        {
+          "file": "b-22.png",
+          "from": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/Grass_Tile_layers2.png @ cell (2,7)",
+          "sha": "66d930590e6b"
+        },
+        {
+          "file": "b-23.png",
+          "from": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/blue_tint_Grass_Tile_Layers4.png @ cell (5,3)",
+          "sha": "39a95245e019"
+        },
+        {
+          "file": "b-24.png",
+          "from": "Sprout Sorry pack/Early Access/Plant update 2/Ground tilesets/blue_tint_Grass_Tile_Layers2.png @ cell (5,24)",
+          "sha": "330414f5de4d"
+        }
+      ]
+    },
+    "C": {
+      "tile_size": 16,
+      "truth": "visual+author (Pixel_Poem 16px dungeon family; sheets 16-multiples, overlay-verified)",
+      "sheets": [
+        {
+          "file": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png",
+          "tile": "16x16",
+          "dims": "512x512",
+          "addressable": 1024,
+          "skipped_empty": 364,
+          "skipped_excluded": 192,
+          "pooled": 468
+        },
+        {
+          "file": "2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png",
+          "tile": "16x16",
+          "dims": "160x160",
+          "addressable": 100,
+          "skipped_empty": 6,
+          "skipped_excluded": 0,
+          "pooled": 94
+        }
+      ],
+      "pool": 562,
+      "sampled": 24,
+      "sample": [
+        {
+          "file": "c-01.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (1,28)",
+          "sha": "6b573a4c0188"
+        },
+        {
+          "file": "c-02.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (11,17)",
+          "sha": "52731b91b868"
+        },
+        {
+          "file": "c-03.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (16,22)",
+          "sha": "0e1ea6c3631f"
+        },
+        {
+          "file": "c-04.png",
+          "from": "2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png @ cell (7,4)",
+          "sha": "f40a3bc82dc9"
+        },
+        {
+          "file": "c-05.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (16,16)",
+          "sha": "690e6dc2df5a"
+        },
+        {
+          "file": "c-06.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (3,18)",
+          "sha": "6ec93ac18dc4"
+        },
+        {
+          "file": "c-07.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (2,26)",
+          "sha": "e8bc280b0f58"
+        },
+        {
+          "file": "c-08.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (7,23)",
+          "sha": "39d1de49dae7"
+        },
+        {
+          "file": "c-09.png",
+          "from": "2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png @ cell (0,7)",
+          "sha": "f521bbf3c549"
+        },
+        {
+          "file": "c-10.png",
+          "from": "2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png @ cell (0,5)",
+          "sha": "716bea03ee8e"
+        },
+        {
+          "file": "c-11.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (26,19)",
+          "sha": "4cdd106d9ed4"
+        },
+        {
+          "file": "c-12.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (23,19)",
+          "sha": "4a816f1af067"
+        },
+        {
+          "file": "c-13.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (6,25)",
+          "sha": "bb1c8ffc3d15"
+        },
+        {
+          "file": "c-14.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (13,7)",
+          "sha": "01579df5a288"
+        },
+        {
+          "file": "c-15.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (14,17)",
+          "sha": "2835f610d6ca"
+        },
+        {
+          "file": "c-16.png",
+          "from": "2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png @ cell (5,0)",
+          "sha": "bb2ccd4232d1"
+        },
+        {
+          "file": "c-17.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (18,12)",
+          "sha": "84c80964ebf2"
+        },
+        {
+          "file": "c-18.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (6,26)",
+          "sha": "f1790611aabb"
+        },
+        {
+          "file": "c-19.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (27,12)",
+          "sha": "71061dcd83b7"
+        },
+        {
+          "file": "c-20.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (3,22)",
+          "sha": "eb475e51020e"
+        },
+        {
+          "file": "c-21.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (26,13)",
+          "sha": "f806a0ca8c61"
+        },
+        {
+          "file": "c-22.png",
+          "from": "2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png @ cell (2,8)",
+          "sha": "0c6349e0b6e2"
+        },
+        {
+          "file": "c-23.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (17,24)",
+          "sha": "96edd0bf3ef0"
+        },
+        {
+          "file": "c-24.png",
+          "from": "2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png @ cell (7,14)",
+          "sha": "1803d539be89"
+        }
+      ]
+    },
+    "D": {
+      "tile_size": 32,
+      "truth": "visual (overlay-verified: features snap to 32, span 2x2 at 16; Stone Ground also detector-confirmed 32 reg=1.0)",
+      "sheets": [
+        {
+          "file": "Texture/TX Tileset Grass.png",
+          "tile": "32x32",
+          "dims": "256x256",
+          "addressable": 64,
+          "skipped_empty": 1,
+          "skipped_excluded": 0,
+          "pooled": 63
+        },
+        {
+          "file": "Texture/TX Tileset Stone Ground.png",
+          "tile": "32x32",
+          "dims": "256x256",
+          "addressable": 64,
+          "skipped_empty": 15,
+          "skipped_excluded": 0,
+          "pooled": 49
+        },
+        {
+          "file": "Texture/TX Tileset Wall.png",
+          "tile": "32x32",
+          "dims": "512x512",
+          "addressable": 256,
+          "skipped_empty": 195,
+          "skipped_excluded": 0,
+          "pooled": 61
+        }
+      ],
+      "pool": 173,
+      "sampled": 24,
+      "sample": [
+        {
+          "file": "d-01.png",
+          "from": "Texture/TX Tileset Stone Ground.png @ cell (7,1)",
+          "sha": "70a01be5243d"
+        },
+        {
+          "file": "d-02.png",
+          "from": "Texture/TX Tileset Stone Ground.png @ cell (7,2)",
+          "sha": "be06b05bc4c6"
+        },
+        {
+          "file": "d-03.png",
+          "from": "Texture/TX Tileset Grass.png @ cell (3,0)",
+          "sha": "ed0531f00fc6"
+        },
+        {
+          "file": "d-04.png",
+          "from": "Texture/TX Tileset Wall.png @ cell (2,6)",
+          "sha": "c1678eee3618"
+        },
+        {
+          "file": "d-05.png",
+          "from": "Texture/TX Tileset Wall.png @ cell (4,4)",
+          "sha": "853195466757"
+        },
+        {
+          "file": "d-06.png",
+          "from": "Texture/TX Tileset Wall.png @ cell (3,2)",
+          "sha": "ad7666d0a72e"
+        },
+        {
+          "file": "d-07.png",
+          "from": "Texture/TX Tileset Wall.png @ cell (2,9)",
+          "sha": "d5da1eadc27c"
+        },
+        {
+          "file": "d-08.png",
+          "from": "Texture/TX Tileset Grass.png @ cell (0,1)",
+          "sha": "83402e39a4f5"
+        },
+        {
+          "file": "d-09.png",
+          "from": "Texture/TX Tileset Wall.png @ cell (4,6)",
+          "sha": "ad2ba4e5d4a4"
+        },
+        {
+          "file": "d-10.png",
+          "from": "Texture/TX Tileset Stone Ground.png @ cell (6,2)",
+          "sha": "d84ba00b9819"
+        },
+        {
+          "file": "d-11.png",
+          "from": "Texture/TX Tileset Stone Ground.png @ cell (1,2)",
+          "sha": "d9aee1a472b1"
+        },
+        {
+          "file": "d-12.png",
+          "from": "Texture/TX Tileset Wall.png @ cell (10,1)",
+          "sha": "3a1af641d064"
+        },
+        {
+          "file": "d-13.png",
+          "from": "Texture/TX Tileset Stone Ground.png @ cell (7,6)",
+          "sha": "e828085cd7db"
+        },
+        {
+          "file": "d-14.png",
+          "from": "Texture/TX Tileset Grass.png @ cell (4,7)",
+          "sha": "a50e7d06198e"
+        },
+        {
+          "file": "d-15.png",
+          "from": "Texture/TX Tileset Grass.png @ cell (1,5)",
+          "sha": "c351d19a80c9"
+        },
+        {
+          "file": "d-16.png",
+          "from": "Texture/TX Tileset Stone Ground.png @ cell (7,7)",
+          "sha": "5a2622b58a8d"
+        },
+        {
+          "file": "d-17.png",
+          "from": "Texture/TX Tileset Stone Ground.png @ cell (5,2)",
+          "sha": "252d96aa63f7"
+        },
+        {
+          "file": "d-18.png",
+          "from": "Texture/TX Tileset Grass.png @ cell (4,6)",
+          "sha": "b4b248dac3b5"
+        },
+        {
+          "file": "d-19.png",
+          "from": "Texture/TX Tileset Wall.png @ cell (4,7)",
+          "sha": "f04c6cff2556"
+        },
+        {
+          "file": "d-20.png",
+          "from": "Texture/TX Tileset Wall.png @ cell (1,3)",
+          "sha": "005c9dfe1c0d"
+        },
+        {
+          "file": "d-21.png",
+          "from": "Texture/TX Tileset Stone Ground.png @ cell (5,0)",
+          "sha": "f1d70c05f77a"
+        },
+        {
+          "file": "d-22.png",
+          "from": "Texture/TX Tileset Grass.png @ cell (6,4)",
+          "sha": "6e2a73a9c75e"
+        },
+        {
+          "file": "d-23.png",
+          "from": "Texture/TX Tileset Grass.png @ cell (4,3)",
+          "sha": "1e6fcd4964c2"
+        },
+        {
+          "file": "d-24.png",
+          "from": "Texture/TX Tileset Stone Ground.png @ cell (3,2)",
+          "sha": "99ba81ea1cdd"
+        }
+      ]
+    },
+    "E": {
+      "tile_size": 16,
+      "truth": "visual+author (Anokolisa 16px sidescroller family; Tiles.png overlay-verified)",
+      "sheets": [
+        {
+          "file": "Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png",
+          "tile": "16x16",
+          "dims": "400x400",
+          "addressable": 625,
+          "skipped_empty": 185,
+          "skipped_excluded": 0,
+          "pooled": 440
+        },
+        {
+          "file": "Legacy-Fantasy - High Forest 2.3/Assets/Interior-01.png",
+          "tile": "16x16",
+          "dims": "400x400",
+          "addressable": 625,
+          "skipped_empty": 384,
+          "skipped_excluded": 0,
+          "pooled": 241
+        },
+        {
+          "file": "Legacy Fantasy - Debug Map/Assets/Tiles.png",
+          "tile": "16x16",
+          "dims": "416x464",
+          "addressable": 754,
+          "skipped_empty": 366,
+          "skipped_excluded": 0,
+          "pooled": 388
+        }
+      ],
+      "pool": 1069,
+      "sampled": 24,
+      "sample": [
+        {
+          "file": "e-01.png",
+          "from": "Legacy Fantasy - Debug Map/Assets/Tiles.png @ cell (13,9)",
+          "sha": "ef87706135af"
+        },
+        {
+          "file": "e-02.png",
+          "from": "Legacy Fantasy - Debug Map/Assets/Tiles.png @ cell (6,7)",
+          "sha": "f0a8a3a21c39"
+        },
+        {
+          "file": "e-03.png",
+          "from": "Legacy-Fantasy - High Forest 2.3/Assets/Interior-01.png @ cell (5,12)",
+          "sha": "8ee521b322ac"
+        },
+        {
+          "file": "e-04.png",
+          "from": "Legacy-Fantasy - High Forest 2.3/Assets/Interior-01.png @ cell (17,4)",
+          "sha": "6d385143a64d"
+        },
+        {
+          "file": "e-05.png",
+          "from": "Legacy-Fantasy - High Forest 2.3/Assets/Interior-01.png @ cell (22,3)",
+          "sha": "da16e466f959"
+        },
+        {
+          "file": "e-06.png",
+          "from": "Legacy-Fantasy - High Forest 2.3/Assets/Interior-01.png @ cell (8,3)",
+          "sha": "c3156bb5b969"
+        },
+        {
+          "file": "e-07.png",
+          "from": "Legacy Fantasy - Debug Map/Assets/Tiles.png @ cell (6,15)",
+          "sha": "ed39b46f83c2"
+        },
+        {
+          "file": "e-08.png",
+          "from": "Legacy Fantasy - Debug Map/Assets/Tiles.png @ cell (17,22)",
+          "sha": "2f0c3a07210c"
+        },
+        {
+          "file": "e-09.png",
+          "from": "Legacy Fantasy - Debug Map/Assets/Tiles.png @ cell (12,1)",
+          "sha": "945c20942571"
+        },
+        {
+          "file": "e-10.png",
+          "from": "Legacy-Fantasy - High Forest 2.3/Assets/Interior-01.png @ cell (2,11)",
+          "sha": "9d9d47b6e82e"
+        },
+        {
+          "file": "e-11.png",
+          "from": "Legacy Fantasy - Debug Map/Assets/Tiles.png @ cell (9,13)",
+          "sha": "5964b5a8382e"
+        },
+        {
+          "file": "e-12.png",
+          "from": "Legacy Fantasy - Debug Map/Assets/Tiles.png @ cell (11,2)",
+          "sha": "c86852cfb500"
+        },
+        {
+          "file": "e-13.png",
+          "from": "Legacy-Fantasy - High Forest 2.3/Assets/Interior-01.png @ cell (3,10)",
+          "sha": "3789de926449"
+        },
+        {
+          "file": "e-14.png",
+          "from": "Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png @ cell (12,7)",
+          "sha": "d41c5ac930b4"
+        },
+        {
+          "file": "e-15.png",
+          "from": "Legacy-Fantasy - High Forest 2.3/Assets/Interior-01.png @ cell (18,8)",
+          "sha": "747c53d2908c"
+        },
+        {
+          "file": "e-16.png",
+          "from": "Legacy-Fantasy - High Forest 2.3/Assets/Interior-01.png @ cell (24,5)",
+          "sha": "e7de20b75114"
+        },
+        {
+          "file": "e-17.png",
+          "from": "Legacy Fantasy - Debug Map/Assets/Tiles.png @ cell (19,4)",
+          "sha": "e4c415d6f53d"
+        },
+        {
+          "file": "e-18.png",
+          "from": "Legacy-Fantasy - High Forest 2.3/Assets/Interior-01.png @ cell (15,7)",
+          "sha": "c633aab02ab2"
+        },
+        {
+          "file": "e-19.png",
+          "from": "Legacy Fantasy - Debug Map/Assets/Tiles.png @ cell (22,9)",
+          "sha": "f66e7d4fe270"
+        },
+        {
+          "file": "e-20.png",
+          "from": "Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png @ cell (16,23)",
+          "sha": "e9779f040c8d"
+        },
+        {
+          "file": "e-21.png",
+          "from": "Legacy Fantasy - Debug Map/Assets/Tiles.png @ cell (15,7)",
+          "sha": "31555770a1a9"
+        },
+        {
+          "file": "e-22.png",
+          "from": "Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png @ cell (20,5)",
+          "sha": "f920f0c62c59"
+        },
+        {
+          "file": "e-23.png",
+          "from": "Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png @ cell (6,22)",
+          "sha": "1eb7066ecda9"
+        },
+        {
+          "file": "e-24.png",
+          "from": "Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png @ cell (17,5)",
+          "sha": "0ae8667f09d2"
+        }
+      ]
+    },
+    "F": {
+      "tile_size": 16,
+      "truth": "visual+author (Szadi 16px platformer family; mainlev overlay-verified)",
+      "sheets": [
+        {
+          "file": "mainlev_build.png",
+          "tile": "16x16",
+          "dims": "1024x1024",
+          "addressable": 4096,
+          "skipped_empty": 3268,
+          "skipped_excluded": 0,
+          "pooled": 828
+        }
+      ],
+      "pool": 828,
+      "sampled": 24,
+      "sample": [
+        {
+          "file": "f-01.png",
+          "from": "mainlev_build.png @ cell (59,32)",
+          "sha": "e57bccba375a"
+        },
+        {
+          "file": "f-02.png",
+          "from": "mainlev_build.png @ cell (35,4)",
+          "sha": "3a110e0c7fd8"
+        },
+        {
+          "file": "f-03.png",
+          "from": "mainlev_build.png @ cell (47,3)",
+          "sha": "7dc3a6d03b3c"
+        },
+        {
+          "file": "f-04.png",
+          "from": "mainlev_build.png @ cell (26,11)",
+          "sha": "6dae79402b0d"
+        },
+        {
+          "file": "f-05.png",
+          "from": "mainlev_build.png @ cell (53,32)",
+          "sha": "1856c5dbbb1d"
+        },
+        {
+          "file": "f-06.png",
+          "from": "mainlev_build.png @ cell (21,50)",
+          "sha": "732a5b5bd565"
+        },
+        {
+          "file": "f-07.png",
+          "from": "mainlev_build.png @ cell (22,28)",
+          "sha": "5af47be0ddca"
+        },
+        {
+          "file": "f-08.png",
+          "from": "mainlev_build.png @ cell (55,44)",
+          "sha": "f32bbdd9d750"
+        },
+        {
+          "file": "f-09.png",
+          "from": "mainlev_build.png @ cell (16,10)",
+          "sha": "6f6d58539524"
+        },
+        {
+          "file": "f-10.png",
+          "from": "mainlev_build.png @ cell (52,18)",
+          "sha": "82e33d86a526"
+        },
+        {
+          "file": "f-11.png",
+          "from": "mainlev_build.png @ cell (61,30)",
+          "sha": "169f30edce6b"
+        },
+        {
+          "file": "f-12.png",
+          "from": "mainlev_build.png @ cell (16,59)",
+          "sha": "a794e737faad"
+        },
+        {
+          "file": "f-13.png",
+          "from": "mainlev_build.png @ cell (14,11)",
+          "sha": "2c4260aab130"
+        },
+        {
+          "file": "f-14.png",
+          "from": "mainlev_build.png @ cell (30,6)",
+          "sha": "537792d9a477"
+        },
+        {
+          "file": "f-15.png",
+          "from": "mainlev_build.png @ cell (34,47)",
+          "sha": "d94fc0ce24fc"
+        },
+        {
+          "file": "f-16.png",
+          "from": "mainlev_build.png @ cell (37,7)",
+          "sha": "6b42c0ab0eef"
+        },
+        {
+          "file": "f-17.png",
+          "from": "mainlev_build.png @ cell (55,36)",
+          "sha": "d498f4bf4ce1"
+        },
+        {
+          "file": "f-18.png",
+          "from": "mainlev_build.png @ cell (3,58)",
+          "sha": "28deb74a8de9"
+        },
+        {
+          "file": "f-19.png",
+          "from": "mainlev_build.png @ cell (34,43)",
+          "sha": "fbbe9046062e"
+        },
+        {
+          "file": "f-20.png",
+          "from": "mainlev_build.png @ cell (31,41)",
+          "sha": "c6d6e30021cc"
+        },
+        {
+          "file": "f-21.png",
+          "from": "mainlev_build.png @ cell (3,55)",
+          "sha": "c268809d4a28"
+        },
+        {
+          "file": "f-22.png",
+          "from": "mainlev_build.png @ cell (10,7)",
+          "sha": "211b9ac3913f"
+        },
+        {
+          "file": "f-23.png",
+          "from": "mainlev_build.png @ cell (56,8)",
+          "sha": "654788a0278a"
+        },
+        {
+          "file": "f-24.png",
+          "from": "mainlev_build.png @ cell (42,49)",
+          "sha": "ad14c847b5cd"
+        }
+      ]
+    },
+    "G": {
+      "tile_size": 16,
+      "truth": "tsx (gentle forest v01.tsx: tilewidth=16) + visual overlay-verified",
+      "sheets": [
+        {
+          "file": "gentle sheets/gentle forest v01.png",
+          "tile": "16x16",
+          "dims": "256x256",
+          "addressable": 256,
+          "skipped_empty": 33,
+          "skipped_excluded": 0,
+          "pooled": 223
+        },
+        {
+          "file": "gentle sheets/gentle 32x32 v01.png",
+          "tile": "32x32",
+          "dims": "128x32",
+          "addressable": 4,
+          "skipped_empty": 0,
+          "skipped_excluded": 0,
+          "pooled": 4
+        }
+      ],
+      "pool": 227,
+      "sampled": 24,
+      "sample": [
+        {
+          "file": "g-01.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (5,5)",
+          "sha": "06b1ccee90ae"
+        },
+        {
+          "file": "g-02.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (5,0)",
+          "sha": "7f98209ef2e3"
+        },
+        {
+          "file": "g-03.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (4,1)",
+          "sha": "897a5b73859d"
+        },
+        {
+          "file": "g-04.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (14,7)",
+          "sha": "1f4c417d7f4d"
+        },
+        {
+          "file": "g-05.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (4,9)",
+          "sha": "549ffa40421b"
+        },
+        {
+          "file": "g-06.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (4,10)",
+          "sha": "92b7abcad0c2"
+        },
+        {
+          "file": "g-07.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (15,13)",
+          "sha": "d133cfc01606"
+        },
+        {
+          "file": "g-08.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (9,3)",
+          "sha": "88aca204f17d"
+        },
+        {
+          "file": "g-09.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (15,14)",
+          "sha": "67d02520b225"
+        },
+        {
+          "file": "g-10.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (6,14)",
+          "sha": "5932ee704f60"
+        },
+        {
+          "file": "g-11.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (9,2)",
+          "sha": "b3bc0717d722"
+        },
+        {
+          "file": "g-12.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (0,11)",
+          "sha": "f1a286862e19"
+        },
+        {
+          "file": "g-13.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (8,4)",
+          "sha": "e5420fccd5d3"
+        },
+        {
+          "file": "g-14.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (4,5)",
+          "sha": "7ff04f93df8d"
+        },
+        {
+          "file": "g-15.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (3,8)",
+          "sha": "56178be7f62b"
+        },
+        {
+          "file": "g-16.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (14,6)",
+          "sha": "d89cbd18fe4e"
+        },
+        {
+          "file": "g-17.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (11,13)",
+          "sha": "4fca82599096"
+        },
+        {
+          "file": "g-18.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (15,1)",
+          "sha": "575a4a572c67"
+        },
+        {
+          "file": "g-19.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (9,4)",
+          "sha": "2d693e879ca3"
+        },
+        {
+          "file": "g-20.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (13,15)",
+          "sha": "ecf44956b71f"
+        },
+        {
+          "file": "g-21.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (5,7)",
+          "sha": "6cfe4fe8237c"
+        },
+        {
+          "file": "g-22.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (2,1)",
+          "sha": "f4ac591a5aeb"
+        },
+        {
+          "file": "g-23.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (10,5)",
+          "sha": "6238d52bbf67"
+        },
+        {
+          "file": "g-24.png",
+          "from": "gentle sheets/gentle forest v01.png @ cell (4,0)",
+          "sha": "364a2b1103eb"
+        }
+      ]
+    },
+    "H": {
+      "tile_size": 32,
+      "truth": "filename (32x32) + visual overlay-verified",
+      "sheets": [
+        {
+          "file": "Sprites/14-TileSets/Terrain (32x32).png",
+          "tile": "32x32",
+          "dims": "608x416",
+          "addressable": 247,
+          "skipped_empty": 154,
+          "skipped_excluded": 0,
+          "pooled": 93
+        },
+        {
+          "file": "Sprites/14-TileSets/Decorations (32x32).png",
+          "tile": "32x32",
+          "dims": "224x192",
+          "addressable": 42,
+          "skipped_empty": 22,
+          "skipped_excluded": 0,
+          "pooled": 20
+        }
+      ],
+      "pool": 113,
+      "sampled": 24,
+      "sample": [
+        {
+          "file": "h-01.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (16,8)",
+          "sha": "524d372ccc3c"
+        },
+        {
+          "file": "h-02.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (13,8)",
+          "sha": "702b4f7be565"
+        },
+        {
+          "file": "h-03.png",
+          "from": "Sprites/14-TileSets/Decorations (32x32).png @ cell (1,3)",
+          "sha": "c5101829a98b"
+        },
+        {
+          "file": "h-04.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (2,7)",
+          "sha": "c778ec790dbc"
+        },
+        {
+          "file": "h-05.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (17,8)",
+          "sha": "dd12efea39c5"
+        },
+        {
+          "file": "h-06.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (17,2)",
+          "sha": "99fd78696735"
+        },
+        {
+          "file": "h-07.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (17,5)",
+          "sha": "9a359c53ea95"
+        },
+        {
+          "file": "h-08.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (13,11)",
+          "sha": "e50817ba2755"
+        },
+        {
+          "file": "h-09.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (3,8)",
+          "sha": "a78157ebbd56"
+        },
+        {
+          "file": "h-10.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (13,4)",
+          "sha": "b944dc8db53c"
+        },
+        {
+          "file": "h-11.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (13,10)",
+          "sha": "b71d7de5208a"
+        },
+        {
+          "file": "h-12.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (11,4)",
+          "sha": "b82b419eba84"
+        },
+        {
+          "file": "h-13.png",
+          "from": "Sprites/14-TileSets/Decorations (32x32).png @ cell (4,2)",
+          "sha": "c38df8b84e20"
+        },
+        {
+          "file": "h-14.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (7,5)",
+          "sha": "a98cf9b2cecb"
+        },
+        {
+          "file": "h-15.png",
+          "from": "Sprites/14-TileSets/Decorations (32x32).png @ cell (1,2)",
+          "sha": "ca1f2a80198a"
+        },
+        {
+          "file": "h-16.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (11,10)",
+          "sha": "eec7bca3ccee"
+        },
+        {
+          "file": "h-17.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (5,2)",
+          "sha": "d89180ad61df"
+        },
+        {
+          "file": "h-18.png",
+          "from": "Sprites/14-TileSets/Decorations (32x32).png @ cell (5,3)",
+          "sha": "da460912ec8c"
+        },
+        {
+          "file": "h-19.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (7,11)",
+          "sha": "f0c55b5ee8ed"
+        },
+        {
+          "file": "h-20.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (1,2)",
+          "sha": "19511cfb2337"
+        },
+        {
+          "file": "h-21.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (8,1)",
+          "sha": "6fb120fc5687"
+        },
+        {
+          "file": "h-22.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (7,2)",
+          "sha": "c83b885c8d2f"
+        },
+        {
+          "file": "h-23.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (5,8)",
+          "sha": "0b6d75468a03"
+        },
+        {
+          "file": "h-24.png",
+          "from": "Sprites/14-TileSets/Terrain (32x32).png @ cell (10,8)",
+          "sha": "1c3e7648a707"
+        }
+      ]
+    },
+    "I": {
+      "tile_size": 16,
+      "truth": "visual+author (0x72 16px family; v1+v2 overlay-verified grid-aligned; heuristic detector missed: sparse content)",
+      "sheets": [
+        {
+          "file": "industrial.v1.png",
+          "tile": "16x16",
+          "dims": "512x512",
+          "addressable": 1024,
+          "skipped_empty": 678,
+          "skipped_excluded": 0,
+          "pooled": 346
+        },
+        {
+          "file": "industrial.v2.png",
+          "tile": "16x16",
+          "dims": "512x512",
+          "addressable": 1024,
+          "skipped_empty": 630,
+          "skipped_excluded": 0,
+          "pooled": 394
+        }
+      ],
+      "pool": 740,
+      "sampled": 24,
+      "sample": [
+        {
+          "file": "i-01.png",
+          "from": "industrial.v2.png @ cell (9,7)",
+          "sha": "23c4c0ec3f4c"
+        },
+        {
+          "file": "i-02.png",
+          "from": "industrial.v1.png @ cell (2,6)",
+          "sha": "79d8663bde45"
+        },
+        {
+          "file": "i-03.png",
+          "from": "industrial.v2.png @ cell (11,2)",
+          "sha": "e0a566d6615d"
+        },
+        {
+          "file": "i-04.png",
+          "from": "industrial.v1.png @ cell (12,7)",
+          "sha": "76537cc7f523"
+        },
+        {
+          "file": "i-05.png",
+          "from": "industrial.v1.png @ cell (1,15)",
+          "sha": "b239a036d6de"
+        },
+        {
+          "file": "i-06.png",
+          "from": "industrial.v1.png @ cell (13,8)",
+          "sha": "f060d5cd1f32"
+        },
+        {
+          "file": "i-07.png",
+          "from": "industrial.v2.png @ cell (8,5)",
+          "sha": "9fef6b614997"
+        },
+        {
+          "file": "i-08.png",
+          "from": "industrial.v2.png @ cell (12,0)",
+          "sha": "32198d24208e"
+        },
+        {
+          "file": "i-09.png",
+          "from": "industrial.v1.png @ cell (19,2)",
+          "sha": "5a7078ff8c65"
+        },
+        {
+          "file": "i-10.png",
+          "from": "industrial.v1.png @ cell (7,19)",
+          "sha": "8ae71fd02f24"
+        },
+        {
+          "file": "i-11.png",
+          "from": "industrial.v1.png @ cell (5,10)",
+          "sha": "8b11a0151601"
+        },
+        {
+          "file": "i-12.png",
+          "from": "industrial.v2.png @ cell (10,5)",
+          "sha": "08ea1e892f12"
+        },
+        {
+          "file": "i-13.png",
+          "from": "industrial.v2.png @ cell (17,4)",
+          "sha": "14fee32d650c"
+        },
+        {
+          "file": "i-14.png",
+          "from": "industrial.v1.png @ cell (21,4)",
+          "sha": "a148278f0d92"
+        },
+        {
+          "file": "i-15.png",
+          "from": "industrial.v1.png @ cell (2,0)",
+          "sha": "2ca5951c51b4"
+        },
+        {
+          "file": "i-16.png",
+          "from": "industrial.v2.png @ cell (8,0)",
+          "sha": "00f8cce3f6ff"
+        },
+        {
+          "file": "i-17.png",
+          "from": "industrial.v1.png @ cell (10,9)",
+          "sha": "1e4d05a11e78"
+        },
+        {
+          "file": "i-18.png",
+          "from": "industrial.v2.png @ cell (15,5)",
+          "sha": "6c4eb1f78bf2"
+        },
+        {
+          "file": "i-19.png",
+          "from": "industrial.v2.png @ cell (23,9)",
+          "sha": "3eeccaf7cdbb"
+        },
+        {
+          "file": "i-20.png",
+          "from": "industrial.v2.png @ cell (13,9)",
+          "sha": "4634bd6183f4"
+        },
+        {
+          "file": "i-21.png",
+          "from": "industrial.v1.png @ cell (15,5)",
+          "sha": "6c4eb1f78bf2"
+        },
+        {
+          "file": "i-22.png",
+          "from": "industrial.v2.png @ cell (3,21)",
+          "sha": "42e987ab4660"
+        },
+        {
+          "file": "i-23.png",
+          "from": "industrial.v2.png @ cell (9,16)",
+          "sha": "f0bacec346af"
+        },
+        {
+          "file": "i-24.png",
+          "from": "industrial.v2.png @ cell (8,1)",
+          "sha": "03e67cdbd037"
+        }
+      ]
+    },
+    "J": {
+      "tile_size": 64,
+      "truth": "loose files (no cutting; isometric 64x64 blocks, projection caveat applies)",
+      "sheets": [
+        {
+          "file": "Isometric_Tiles_Pixel_Art/Blocks/*.png (loose, no cutting)",
+          "addressable": 101
+        }
+      ],
+      "pool": 101,
+      "sampled": 24,
+      "sample": [
+        {
+          "file": "j-01.png",
+          "from": "blocks_42.png"
+        },
+        {
+          "file": "j-02.png",
+          "from": "blocks_27.png"
+        },
+        {
+          "file": "j-03.png",
+          "from": "blocks_11.png"
+        },
+        {
+          "file": "j-04.png",
+          "from": "blocks_44.png"
+        },
+        {
+          "file": "j-05.png",
+          "from": "blocks_38.png"
+        },
+        {
+          "file": "j-06.png",
+          "from": "blocks_32.png"
+        },
+        {
+          "file": "j-07.png",
+          "from": "blocks_24.png"
+        },
+        {
+          "file": "j-08.png",
+          "from": "blocks_36.png"
+        },
+        {
+          "file": "j-09.png",
+          "from": "blocks_12.png"
+        },
+        {
+          "file": "j-10.png",
+          "from": "blocks_54.png"
+        },
+        {
+          "file": "j-11.png",
+          "from": "blocks_68.png"
+        },
+        {
+          "file": "j-12.png",
+          "from": "blocks_87.png"
+        },
+        {
+          "file": "j-13.png",
+          "from": "blocks_76.png"
+        },
+        {
+          "file": "j-14.png",
+          "from": "blocks_85.png"
+        },
+        {
+          "file": "j-15.png",
+          "from": "blocks_97.png"
+        },
+        {
+          "file": "j-16.png",
+          "from": "blocks_31.png"
+        },
+        {
+          "file": "j-17.png",
+          "from": "blocks_47.png"
+        },
+        {
+          "file": "j-18.png",
+          "from": "blocks_30.png"
+        },
+        {
+          "file": "j-19.png",
+          "from": "blocks_98.png"
+        },
+        {
+          "file": "j-20.png",
+          "from": "blocks_61.png"
+        },
+        {
+          "file": "j-21.png",
+          "from": "blocks_86.png"
+        },
+        {
+          "file": "j-22.png",
+          "from": "blocks_57.png"
+        },
+        {
+          "file": "j-23.png",
+          "from": "blocks_84.png"
+        },
+        {
+          "file": "j-24.png",
+          "from": "blocks_6.png"
+        }
+      ]
+    }
+  }
+}

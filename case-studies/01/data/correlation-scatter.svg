@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460">
+  <rect width="720" height="460" fill="#0b1220"/>
+  <text x="70" y="28" font-size="17" fill="#f8fafc" font-family="sans-serif" font-weight="bold">Popularity vs. failure share (before fix pass)</text>
+  <text x="70" y="46" font-size="12" fill="#94a3b8" font-family="sans-serif">each dot = one pack · y = % tiles below Production gate (before fix pass)</text>
+  <line x1="70" y1="50" x2="70" y2="410" stroke="#334155" stroke-width="2"/>
+  <line x1="70" y1="410" x2="690" y2="410" stroke="#334155" stroke-width="2"/>
+  <text x="60" y="414" font-size="12" fill="#64748b" text-anchor="end" font-family="sans-serif">0%</text>
+  <text x="60" y="324" font-size="12" fill="#64748b" text-anchor="end" font-family="sans-serif">25%</text>
+  <text x="60" y="234" font-size="12" fill="#64748b" text-anchor="end" font-family="sans-serif">50%</text>
+  <text x="60" y="144" font-size="12" fill="#64748b" text-anchor="end" font-family="sans-serif">75%</text>
+  <text x="60" y="54" font-size="12" fill="#64748b" text-anchor="end" font-family="sans-serif">100%</text>
+  <text x="380" y="445" font-size="12" fill="#7dd3fc" text-anchor="middle" font-family="sans-serif">pack popularity (downloads)</text>
+  <circle cx="70.0" cy="80.0" r="7" fill="#fbbf24" stroke="#0b1220" stroke-width="2"/><text x="81.0" y="84.0" font-size="14" fill="#e2e8f0" font-family="sans-serif">A</text>
+  <circle cx="106.5" cy="50.0" r="7" fill="#fbbf24" stroke="#0b1220" stroke-width="2"/><text x="117.5" y="54.0" font-size="14" fill="#e2e8f0" font-family="sans-serif">C</text>
+  <circle cx="124.7" cy="65.0" r="7" fill="#fbbf24" stroke="#0b1220" stroke-width="2"/><text x="135.7" y="69.0" font-size="14" fill="#e2e8f0" font-family="sans-serif">D</text>
+  <circle cx="179.4" cy="80.0" r="7" fill="#fbbf24" stroke="#0b1220" stroke-width="2"/><text x="190.4" y="84.0" font-size="14" fill="#e2e8f0" font-family="sans-serif">F</text>
+  <circle cx="234.1" cy="50.0" r="7" fill="#fbbf24" stroke="#0b1220" stroke-width="2"/><text x="245.1" y="54.0" font-size="14" fill="#e2e8f0" font-family="sans-serif">G</text>
+  <circle cx="307.1" cy="50.0" r="7" fill="#fbbf24" stroke="#0b1220" stroke-width="2"/><text x="318.1" y="54.0" font-size="14" fill="#e2e8f0" font-family="sans-serif">H</text>
+  <circle cx="471.2" cy="50.0" r="7" fill="#fbbf24" stroke="#0b1220" stroke-width="2"/><text x="482.2" y="54.0" font-size="14" fill="#e2e8f0" font-family="sans-serif">I</text>
+  <circle cx="690.0" cy="50.0" r="7" fill="#fbbf24" stroke="#0b1220" stroke-width="2"/><text x="701.0" y="54.0" font-size="14" fill="#e2e8f0" font-family="sans-serif">J</text>
+</svg>
