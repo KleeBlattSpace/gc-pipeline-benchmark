@@ -1,0 +1,38 @@
+{
+  "rule": "full-bleed = each edge ≥90% opaque pixels; else fragment",
+  "generated_at": "2026-09-07T11:34:08.165Z",
+  "strata": {
+    "before": {
+      "full_bleed": {
+        "n": 121,
+        "production": 10,
+        "review": 19,
+        "reject": 92,
+        "avg": 70.4
+      },
+      "fragment": {
+        "n": 119,
+        "production": 0,
+        "review": 6,
+        "reject": 113,
+        "avg": 62.7
+      }
+    },
+    "after": {
+      "full_bleed": {
+        "n": 131,
+        "production": 13,
+        "review": 20,
+        "reject": 98,
+        "avg": 74.1
+      },
+      "fragment": {
+        "n": 109,
+        "production": 0,
+        "review": 6,
+        "reject": 103,
+        "avg": 66
+      }
+    }
+  }
+}

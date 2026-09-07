@@ -1,0 +1,1883 @@
+{
+  "generated_at": "2026-09-07T11:33:07.358Z",
+  "ops": "border-normalize + despeckle, applied only when metric<7",
+  "tiles": [
+    {
+      "pack": "A",
+      "file": "a-01.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 62
+    },
+    {
+      "pack": "A",
+      "file": "a-02.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 63
+    },
+    {
+      "pack": "A",
+      "file": "a-03.png",
+      "ops": [],
+      "score_before": 68
+    },
+    {
+      "pack": "A",
+      "file": "a-04.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 79
+    },
+    {
+      "pack": "A",
+      "file": "a-05.png",
+      "ops": [],
+      "score_before": 73
+    },
+    {
+      "pack": "A",
+      "file": "a-06.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 59
+    },
+    {
+      "pack": "A",
+      "file": "a-07.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 70
+    },
+    {
+      "pack": "A",
+      "file": "a-08.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 67
+    },
+    {
+      "pack": "A",
+      "file": "a-09.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 65
+    },
+    {
+      "pack": "A",
+      "file": "a-10.png",
+      "ops": [],
+      "score_before": 72
+    },
+    {
+      "pack": "A",
+      "file": "a-11.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 57
+    },
+    {
+      "pack": "A",
+      "file": "a-12.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 61
+    },
+    {
+      "pack": "A",
+      "file": "a-13.png",
+      "ops": [],
+      "score_before": 71
+    },
+    {
+      "pack": "A",
+      "file": "a-14.png",
+      "ops": [],
+      "score_before": 75
+    },
+    {
+      "pack": "A",
+      "file": "a-15.png",
+      "ops": [],
+      "score_before": 94
+    },
+    {
+      "pack": "A",
+      "file": "a-16.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 64
+    },
+    {
+      "pack": "A",
+      "file": "a-17.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 65
+    },
+    {
+      "pack": "A",
+      "file": "a-18.png",
+      "ops": [],
+      "score_before": 95
+    },
+    {
+      "pack": "A",
+      "file": "a-19.png",
+      "ops": [],
+      "score_before": 74
+    },
+    {
+      "pack": "A",
+      "file": "a-20.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 77
+    },
+    {
+      "pack": "A",
+      "file": "a-21.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 58
+    },
+    {
+      "pack": "A",
+      "file": "a-22.png",
+      "ops": [],
+      "score_before": 71
+    },
+    {
+      "pack": "A",
+      "file": "a-23.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 57
+    },
+    {
+      "pack": "A",
+      "file": "a-24.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 70
+    },
+    {
+      "pack": "B",
+      "file": "b-01.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 64
+    },
+    {
+      "pack": "B",
+      "file": "b-02.png",
+      "ops": [],
+      "score_before": 94
+    },
+    {
+      "pack": "B",
+      "file": "b-03.png",
+      "ops": [],
+      "score_before": 77
+    },
+    {
+      "pack": "B",
+      "file": "b-04.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 49
+    },
+    {
+      "pack": "B",
+      "file": "b-05.png",
+      "ops": [],
+      "score_before": 81
+    },
+    {
+      "pack": "B",
+      "file": "b-06.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 48
+    },
+    {
+      "pack": "B",
+      "file": "b-07.png",
+      "ops": [],
+      "score_before": 91
+    },
+    {
+      "pack": "B",
+      "file": "b-08.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 76
+    },
+    {
+      "pack": "B",
+      "file": "b-09.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 63
+    },
+    {
+      "pack": "B",
+      "file": "b-10.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 78
+    },
+    {
+      "pack": "B",
+      "file": "b-11.png",
+      "ops": [],
+      "score_before": 96
+    },
+    {
+      "pack": "B",
+      "file": "b-12.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 85
+    },
+    {
+      "pack": "B",
+      "file": "b-13.png",
+      "ops": [],
+      "score_before": 95
+    },
+    {
+      "pack": "B",
+      "file": "b-14.png",
+      "ops": [],
+      "score_before": 91
+    },
+    {
+      "pack": "B",
+      "file": "b-15.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 58
+    },
+    {
+      "pack": "B",
+      "file": "b-16.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 78
+    },
+    {
+      "pack": "B",
+      "file": "b-17.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 69
+    },
+    {
+      "pack": "B",
+      "file": "b-18.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 65
+    },
+    {
+      "pack": "B",
+      "file": "b-19.png",
+      "ops": [],
+      "score_before": 94
+    },
+    {
+      "pack": "B",
+      "file": "b-20.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 55
+    },
+    {
+      "pack": "B",
+      "file": "b-21.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 63
+    },
+    {
+      "pack": "B",
+      "file": "b-22.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 68
+    },
+    {
+      "pack": "B",
+      "file": "b-23.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 56
+    },
+    {
+      "pack": "B",
+      "file": "b-24.png",
+      "ops": [],
+      "score_before": 92
+    },
+    {
+      "pack": "C",
+      "file": "c-01.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 66
+    },
+    {
+      "pack": "C",
+      "file": "c-02.png",
+      "ops": [],
+      "score_before": 75
+    },
+    {
+      "pack": "C",
+      "file": "c-03.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 70
+    },
+    {
+      "pack": "C",
+      "file": "c-04.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 58
+    },
+    {
+      "pack": "C",
+      "file": "c-05.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 63
+    },
+    {
+      "pack": "C",
+      "file": "c-06.png",
+      "ops": [],
+      "score_before": 72
+    },
+    {
+      "pack": "C",
+      "file": "c-07.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 63
+    },
+    {
+      "pack": "C",
+      "file": "c-08.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 66
+    },
+    {
+      "pack": "C",
+      "file": "c-09.png",
+      "ops": [],
+      "score_before": 88
+    },
+    {
+      "pack": "C",
+      "file": "c-10.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 62
+    },
+    {
+      "pack": "C",
+      "file": "c-11.png",
+      "ops": [],
+      "score_before": 73
+    },
+    {
+      "pack": "C",
+      "file": "c-12.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 64
+    },
+    {
+      "pack": "C",
+      "file": "c-13.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 75
+    },
+    {
+      "pack": "C",
+      "file": "c-14.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 68
+    },
+    {
+      "pack": "C",
+      "file": "c-15.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 65
+    },
+    {
+      "pack": "C",
+      "file": "c-16.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 57
+    },
+    {
+      "pack": "C",
+      "file": "c-17.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 64
+    },
+    {
+      "pack": "C",
+      "file": "c-18.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 70
+    },
+    {
+      "pack": "C",
+      "file": "c-19.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 68
+    },
+    {
+      "pack": "C",
+      "file": "c-20.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 63
+    },
+    {
+      "pack": "C",
+      "file": "c-21.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 64
+    },
+    {
+      "pack": "C",
+      "file": "c-22.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 61
+    },
+    {
+      "pack": "C",
+      "file": "c-23.png",
+      "ops": [],
+      "score_before": 74
+    },
+    {
+      "pack": "C",
+      "file": "c-24.png",
+      "ops": [],
+      "score_before": 69
+    },
+    {
+      "pack": "D",
+      "file": "d-01.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 52
+    },
+    {
+      "pack": "D",
+      "file": "d-02.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 50
+    },
+    {
+      "pack": "D",
+      "file": "d-03.png",
+      "ops": [],
+      "score_before": 87
+    },
+    {
+      "pack": "D",
+      "file": "d-04.png",
+      "ops": [],
+      "score_before": 67
+    },
+    {
+      "pack": "D",
+      "file": "d-05.png",
+      "ops": [],
+      "score_before": 72
+    },
+    {
+      "pack": "D",
+      "file": "d-06.png",
+      "ops": [],
+      "score_before": 69
+    },
+    {
+      "pack": "D",
+      "file": "d-07.png",
+      "ops": [],
+      "score_before": 67
+    },
+    {
+      "pack": "D",
+      "file": "d-08.png",
+      "ops": [],
+      "score_before": 87
+    },
+    {
+      "pack": "D",
+      "file": "d-09.png",
+      "ops": [],
+      "score_before": 67
+    },
+    {
+      "pack": "D",
+      "file": "d-10.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 49
+    },
+    {
+      "pack": "D",
+      "file": "d-11.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 50
+    },
+    {
+      "pack": "D",
+      "file": "d-12.png",
+      "ops": [],
+      "score_before": 69
+    },
+    {
+      "pack": "D",
+      "file": "d-13.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 53
+    },
+    {
+      "pack": "D",
+      "file": "d-14.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 70
+    },
+    {
+      "pack": "D",
+      "file": "d-15.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 59
+    },
+    {
+      "pack": "D",
+      "file": "d-16.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 53
+    },
+    {
+      "pack": "D",
+      "file": "d-17.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 50
+    },
+    {
+      "pack": "D",
+      "file": "d-18.png",
+      "ops": [],
+      "score_before": 73
+    },
+    {
+      "pack": "D",
+      "file": "d-19.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 61
+    },
+    {
+      "pack": "D",
+      "file": "d-20.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 59
+    },
+    {
+      "pack": "D",
+      "file": "d-21.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 50
+    },
+    {
+      "pack": "D",
+      "file": "d-22.png",
+      "ops": [],
+      "score_before": 85
+    },
+    {
+      "pack": "D",
+      "file": "d-23.png",
+      "ops": [],
+      "score_before": 94
+    },
+    {
+      "pack": "D",
+      "file": "d-24.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 49
+    },
+    {
+      "pack": "E",
+      "file": "e-01.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 66
+    },
+    {
+      "pack": "E",
+      "file": "e-02.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 63
+    },
+    {
+      "pack": "E",
+      "file": "e-03.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 55
+    },
+    {
+      "pack": "E",
+      "file": "e-04.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 80
+    },
+    {
+      "pack": "E",
+      "file": "e-05.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 55
+    },
+    {
+      "pack": "E",
+      "file": "e-06.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 64
+    },
+    {
+      "pack": "E",
+      "file": "e-07.png",
+      "ops": [],
+      "score_before": 71
+    },
+    {
+      "pack": "E",
+      "file": "e-08.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 66
+    },
+    {
+      "pack": "E",
+      "file": "e-09.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 61
+    },
+    {
+      "pack": "E",
+      "file": "e-10.png",
+      "ops": [],
+      "score_before": 72
+    },
+    {
+      "pack": "E",
+      "file": "e-11.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 45
+    },
+    {
+      "pack": "E",
+      "file": "e-12.png",
+      "ops": [],
+      "score_before": 65
+    },
+    {
+      "pack": "E",
+      "file": "e-13.png",
+      "ops": [],
+      "score_before": 78
+    },
+    {
+      "pack": "E",
+      "file": "e-14.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 54
+    },
+    {
+      "pack": "E",
+      "file": "e-15.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 70
+    },
+    {
+      "pack": "E",
+      "file": "e-16.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 60
+    },
+    {
+      "pack": "E",
+      "file": "e-17.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 60
+    },
+    {
+      "pack": "E",
+      "file": "e-18.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 73
+    },
+    {
+      "pack": "E",
+      "file": "e-19.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 70
+    },
+    {
+      "pack": "E",
+      "file": "e-20.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 61
+    },
+    {
+      "pack": "E",
+      "file": "e-21.png",
+      "ops": [],
+      "score_before": 74
+    },
+    {
+      "pack": "E",
+      "file": "e-22.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 64
+    },
+    {
+      "pack": "E",
+      "file": "e-23.png",
+      "ops": [],
+      "score_before": 85
+    },
+    {
+      "pack": "E",
+      "file": "e-24.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 63
+    },
+    {
+      "pack": "F",
+      "file": "f-01.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 58
+    },
+    {
+      "pack": "F",
+      "file": "f-02.png",
+      "ops": [],
+      "score_before": 93
+    },
+    {
+      "pack": "F",
+      "file": "f-03.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 48
+    },
+    {
+      "pack": "F",
+      "file": "f-04.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 69
+    },
+    {
+      "pack": "F",
+      "file": "f-05.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 52
+    },
+    {
+      "pack": "F",
+      "file": "f-06.png",
+      "ops": [],
+      "score_before": 94
+    },
+    {
+      "pack": "F",
+      "file": "f-07.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 53
+    },
+    {
+      "pack": "F",
+      "file": "f-08.png",
+      "ops": [],
+      "score_before": 71
+    },
+    {
+      "pack": "F",
+      "file": "f-09.png",
+      "ops": [],
+      "score_before": 73
+    },
+    {
+      "pack": "F",
+      "file": "f-10.png",
+      "ops": [],
+      "score_before": 75
+    },
+    {
+      "pack": "F",
+      "file": "f-11.png",
+      "ops": [],
+      "score_before": 69
+    },
+    {
+      "pack": "F",
+      "file": "f-12.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 57
+    },
+    {
+      "pack": "F",
+      "file": "f-13.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 56
+    },
+    {
+      "pack": "F",
+      "file": "f-14.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 72
+    },
+    {
+      "pack": "F",
+      "file": "f-15.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 60
+    },
+    {
+      "pack": "F",
+      "file": "f-16.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 57
+    },
+    {
+      "pack": "F",
+      "file": "f-17.png",
+      "ops": [],
+      "score_before": 74
+    },
+    {
+      "pack": "F",
+      "file": "f-18.png",
+      "ops": [],
+      "score_before": 87
+    },
+    {
+      "pack": "F",
+      "file": "f-19.png",
+      "ops": [],
+      "score_before": 77
+    },
+    {
+      "pack": "F",
+      "file": "f-20.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 54
+    },
+    {
+      "pack": "F",
+      "file": "f-21.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 66
+    },
+    {
+      "pack": "F",
+      "file": "f-22.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 69
+    },
+    {
+      "pack": "F",
+      "file": "f-23.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 62
+    },
+    {
+      "pack": "F",
+      "file": "f-24.png",
+      "ops": [],
+      "score_before": 86
+    },
+    {
+      "pack": "G",
+      "file": "g-01.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 66
+    },
+    {
+      "pack": "G",
+      "file": "g-02.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 77
+    },
+    {
+      "pack": "G",
+      "file": "g-03.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 79
+    },
+    {
+      "pack": "G",
+      "file": "g-04.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 67
+    },
+    {
+      "pack": "G",
+      "file": "g-05.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 77
+    },
+    {
+      "pack": "G",
+      "file": "g-06.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 70
+    },
+    {
+      "pack": "G",
+      "file": "g-07.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 59
+    },
+    {
+      "pack": "G",
+      "file": "g-08.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 77
+    },
+    {
+      "pack": "G",
+      "file": "g-09.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 71
+    },
+    {
+      "pack": "G",
+      "file": "g-10.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 58
+    },
+    {
+      "pack": "G",
+      "file": "g-11.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 70
+    },
+    {
+      "pack": "G",
+      "file": "g-12.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 71
+    },
+    {
+      "pack": "G",
+      "file": "g-13.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 72
+    },
+    {
+      "pack": "G",
+      "file": "g-14.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 79
+    },
+    {
+      "pack": "G",
+      "file": "g-15.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 65
+    },
+    {
+      "pack": "G",
+      "file": "g-16.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 75
+    },
+    {
+      "pack": "G",
+      "file": "g-17.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 76
+    },
+    {
+      "pack": "G",
+      "file": "g-18.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 57
+    },
+    {
+      "pack": "G",
+      "file": "g-19.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 74
+    },
+    {
+      "pack": "G",
+      "file": "g-20.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 66
+    },
+    {
+      "pack": "G",
+      "file": "g-21.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 74
+    },
+    {
+      "pack": "G",
+      "file": "g-22.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 72
+    },
+    {
+      "pack": "G",
+      "file": "g-23.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 77
+    },
+    {
+      "pack": "G",
+      "file": "g-24.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 81
+    },
+    {
+      "pack": "H",
+      "file": "h-01.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 48
+    },
+    {
+      "pack": "H",
+      "file": "h-02.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 50
+    },
+    {
+      "pack": "H",
+      "file": "h-03.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 53
+    },
+    {
+      "pack": "H",
+      "file": "h-04.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 61
+    },
+    {
+      "pack": "H",
+      "file": "h-05.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 48
+    },
+    {
+      "pack": "H",
+      "file": "h-06.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 67
+    },
+    {
+      "pack": "H",
+      "file": "h-07.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 56
+    },
+    {
+      "pack": "H",
+      "file": "h-08.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 58
+    },
+    {
+      "pack": "H",
+      "file": "h-09.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 54
+    },
+    {
+      "pack": "H",
+      "file": "h-10.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 74
+    },
+    {
+      "pack": "H",
+      "file": "h-11.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 55
+    },
+    {
+      "pack": "H",
+      "file": "h-12.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 74
+    },
+    {
+      "pack": "H",
+      "file": "h-13.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 62
+    },
+    {
+      "pack": "H",
+      "file": "h-14.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 78
+    },
+    {
+      "pack": "H",
+      "file": "h-15.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 69
+    },
+    {
+      "pack": "H",
+      "file": "h-16.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 54
+    },
+    {
+      "pack": "H",
+      "file": "h-17.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 66
+    },
+    {
+      "pack": "H",
+      "file": "h-18.png",
+      "ops": [],
+      "score_before": 69
+    },
+    {
+      "pack": "H",
+      "file": "h-19.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 47
+    },
+    {
+      "pack": "H",
+      "file": "h-20.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 72
+    },
+    {
+      "pack": "H",
+      "file": "h-21.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 72
+    },
+    {
+      "pack": "H",
+      "file": "h-22.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 64
+    },
+    {
+      "pack": "H",
+      "file": "h-23.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 54
+    },
+    {
+      "pack": "H",
+      "file": "h-24.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 44
+    },
+    {
+      "pack": "I",
+      "file": "i-01.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 76
+    },
+    {
+      "pack": "I",
+      "file": "i-02.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 61
+    },
+    {
+      "pack": "I",
+      "file": "i-03.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 79
+    },
+    {
+      "pack": "I",
+      "file": "i-04.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 68
+    },
+    {
+      "pack": "I",
+      "file": "i-05.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 73
+    },
+    {
+      "pack": "I",
+      "file": "i-06.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 67
+    },
+    {
+      "pack": "I",
+      "file": "i-07.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 64
+    },
+    {
+      "pack": "I",
+      "file": "i-08.png",
+      "ops": [],
+      "score_before": 82
+    },
+    {
+      "pack": "I",
+      "file": "i-09.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 55
+    },
+    {
+      "pack": "I",
+      "file": "i-10.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 61
+    },
+    {
+      "pack": "I",
+      "file": "i-11.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 62
+    },
+    {
+      "pack": "I",
+      "file": "i-12.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 65
+    },
+    {
+      "pack": "I",
+      "file": "i-13.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 60
+    },
+    {
+      "pack": "I",
+      "file": "i-14.png",
+      "ops": [
+        "despeckle"
+      ],
+      "score_before": 68
+    },
+    {
+      "pack": "I",
+      "file": "i-15.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 57
+    },
+    {
+      "pack": "I",
+      "file": "i-16.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 66
+    },
+    {
+      "pack": "I",
+      "file": "i-17.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 84
+    },
+    {
+      "pack": "I",
+      "file": "i-18.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 83
+    },
+    {
+      "pack": "I",
+      "file": "i-19.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 63
+    },
+    {
+      "pack": "I",
+      "file": "i-20.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 66
+    },
+    {
+      "pack": "I",
+      "file": "i-21.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 83
+    },
+    {
+      "pack": "I",
+      "file": "i-22.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 57
+    },
+    {
+      "pack": "I",
+      "file": "i-23.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 72
+    },
+    {
+      "pack": "I",
+      "file": "i-24.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 46
+    },
+    {
+      "pack": "J",
+      "file": "j-01.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 54
+    },
+    {
+      "pack": "J",
+      "file": "j-02.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 66
+    },
+    {
+      "pack": "J",
+      "file": "j-03.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 54
+    },
+    {
+      "pack": "J",
+      "file": "j-04.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 64
+    },
+    {
+      "pack": "J",
+      "file": "j-05.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 53
+    },
+    {
+      "pack": "J",
+      "file": "j-06.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 59
+    },
+    {
+      "pack": "J",
+      "file": "j-07.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 53
+    },
+    {
+      "pack": "J",
+      "file": "j-08.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 58
+    },
+    {
+      "pack": "J",
+      "file": "j-09.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 56
+    },
+    {
+      "pack": "J",
+      "file": "j-10.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 52
+    },
+    {
+      "pack": "J",
+      "file": "j-11.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 56
+    },
+    {
+      "pack": "J",
+      "file": "j-12.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 59
+    },
+    {
+      "pack": "J",
+      "file": "j-13.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 60
+    },
+    {
+      "pack": "J",
+      "file": "j-14.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 60
+    },
+    {
+      "pack": "J",
+      "file": "j-15.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 49
+    },
+    {
+      "pack": "J",
+      "file": "j-16.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 75
+    },
+    {
+      "pack": "J",
+      "file": "j-17.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 54
+    },
+    {
+      "pack": "J",
+      "file": "j-18.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 74
+    },
+    {
+      "pack": "J",
+      "file": "j-19.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 48
+    },
+    {
+      "pack": "J",
+      "file": "j-20.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 55
+    },
+    {
+      "pack": "J",
+      "file": "j-21.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 59
+    },
+    {
+      "pack": "J",
+      "file": "j-22.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 47
+    },
+    {
+      "pack": "J",
+      "file": "j-23.png",
+      "ops": [
+        "border",
+        "despeckle"
+      ],
+      "score_before": 61
+    },
+    {
+      "pack": "J",
+      "file": "j-24.png",
+      "ops": [
+        "border"
+      ],
+      "score_before": 53
+    }
+  ]
+}

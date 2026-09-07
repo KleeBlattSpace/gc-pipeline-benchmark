@@ -1,0 +1,340 @@
+{
+  "study": "CS-01",
+  "generated_at": "2026-09-07T11:28:14.422Z",
+  "summary": {
+    "packs": 10,
+    "atlas_only": 3,
+    "mixed": 6,
+    "loose_only": 1,
+    "pct_atlas_only": 30,
+    "tiles_precut": 556,
+    "tiles_in_atlases": 242126,
+    "pct_tiles_locked_in_atlases": 99.8
+  },
+  "packs": [
+    {
+      "id": "A",
+      "format": "mixed",
+      "loose_tiles": 70,
+      "atlas_sheets": 15,
+      "tiles_in_atlases": 447,
+      "grid_atlases": 5,
+      "packed_atlases": 10,
+      "grids": [
+        {
+          "file": "case-studies/01/raw/A/_extracted/Sprout Lands - Sprites - Basic pack/Tilesets/Bitmask references 1.png",
+          "tile": "38×38",
+          "cells": 72,
+          "regularity": 1
+        },
+        {
+          "file": "case-studies/01/raw/A/_extracted/Sprout Lands - Sprites - Basic pack/Tilesets/Bitmask references 2.png",
+          "tile": "38×38",
+          "cells": 72,
+          "regularity": 1
+        },
+        {
+          "file": "case-studies/01/raw/A/_extracted/Sprout Lands - Sprites - Basic pack/Tilesets/Hills.png",
+          "tile": "16×32",
+          "cells": 44,
+          "regularity": 0.8
+        },
+        {
+          "file": "case-studies/01/raw/A/_extracted/Sprout Lands - Sprites - Basic pack/Tilesets/Tilled Dirt.png",
+          "tile": "6×16",
+          "cells": 168,
+          "regularity": 0.76
+        },
+        {
+          "file": "case-studies/01/raw/A/_extracted/Sprout Lands - UI Pack - Basic pack/fonts/pixel-letters-7-8x14-preview.png",
+          "tile": "36×60",
+          "cells": 91,
+          "regularity": 1
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "format": "mixed",
+      "loose_tiles": 66,
+      "atlas_sheets": 34,
+      "tiles_in_atlases": 350,
+      "grid_atlases": 4,
+      "packed_atlases": 30,
+      "grids": [
+        {
+          "file": "case-studies/01/raw/B/_extracted/Sprout Sorry pack/Early Access/Dungeon Pack/tiles/Dungeon_walls.png",
+          "tile": "16×80",
+          "cells": 48,
+          "regularity": 0.82
+        },
+        {
+          "file": "case-studies/01/raw/B/_extracted/Sprout Sorry pack/Early Access/Dungeon Pack/tiles/ground_dirt_orange_dark.png",
+          "tile": "16×16",
+          "cells": 121,
+          "regularity": 0.8
+        },
+        {
+          "file": "case-studies/01/raw/B/_extracted/Sprout Sorry pack/Early Access/Dungeon Pack/tiles/ground_dirt_orange.png",
+          "tile": "16×16",
+          "cells": 121,
+          "regularity": 0.8
+        },
+        {
+          "file": "case-studies/01/raw/B/_extracted/Sprout Sorry pack/Early Access/Plant update 2/Furniture/new Wooden Furniture.png",
+          "tile": "16×32",
+          "cells": 60,
+          "regularity": 0.67
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "format": "mixed",
+      "loose_tiles": 195,
+      "atlas_sheets": 4,
+      "tiles_in_atlases": 8192,
+      "grid_atlases": 1,
+      "packed_atlases": 3,
+      "grids": [
+        {
+          "file": "case-studies/01/raw/C/_extracted/2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png",
+          "tile": "4×8",
+          "cells": 8192,
+          "regularity": 0.81
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "format": "atlas_only",
+      "loose_tiles": 0,
+      "atlas_sheets": 12,
+      "tiles_in_atlases": 872,
+      "grid_atlases": 6,
+      "packed_atlases": 6,
+      "grids": [
+        {
+          "file": "case-studies/01/raw/D/_extracted/Texture/TX Props.png",
+          "tile": "125×62",
+          "cells": 32,
+          "regularity": 0.63
+        },
+        {
+          "file": "case-studies/01/raw/D/_extracted/Texture/TX Shadow.png",
+          "tile": "26×15",
+          "cells": 646,
+          "regularity": 0.62
+        },
+        {
+          "file": "case-studies/01/raw/D/_extracted/Texture/TX Struct.png",
+          "tile": "96×101",
+          "cells": 25,
+          "regularity": 0.8
+        },
+        {
+          "file": "case-studies/01/raw/D/_extracted/Texture/TX Tileset Grass.png",
+          "tile": "48×16",
+          "cells": 80,
+          "regularity": 0.73
+        },
+        {
+          "file": "case-studies/01/raw/D/_extracted/Texture/TX Tileset Stone Ground.png",
+          "tile": "32×32",
+          "cells": 64,
+          "regularity": 1
+        },
+        {
+          "file": "case-studies/01/raw/D/_extracted/Texture/TX Tileset Wall.png",
+          "tile": "96×96",
+          "cells": 25,
+          "regularity": 0.6
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "format": "mixed",
+      "loose_tiles": 25,
+      "atlas_sheets": 19,
+      "tiles_in_atlases": 134341,
+      "grid_atlases": 7,
+      "packed_atlases": 12,
+      "grids": [
+        {
+          "file": "case-studies/01/raw/E/_extracted/Legacy Fantasy - Debug Map/Assets/Tiles.png",
+          "tile": "32×16",
+          "cells": 377,
+          "regularity": 0.93
+        },
+        {
+          "file": "case-studies/01/raw/E/_extracted/Legacy Fantasy - Debug Map/MockUp/Cover.png",
+          "tile": "4×4",
+          "cells": 130560,
+          "regularity": 1
+        },
+        {
+          "file": "case-studies/01/raw/E/_extracted/Legacy Fantasy - Debug Map/MockUp/MockUp_01.png",
+          "tile": "32×16",
+          "cells": 504,
+          "regularity": 0.87
+        },
+        {
+          "file": "case-studies/01/raw/E/_extracted/Legacy-Fantasy - High Forest 2.3/Assets/Tiles.png",
+          "tile": "16×48",
+          "cells": 200,
+          "regularity": 0.75
+        },
+        {
+          "file": "case-studies/01/raw/E/_extracted/Legacy-Fantasy - High Forest 2.3/Trees/Dark-Tree.png",
+          "tile": "112×16",
+          "cells": 900,
+          "regularity": 0.72
+        },
+        {
+          "file": "case-studies/01/raw/E/_extracted/Legacy-Fantasy - High Forest 2.3/Trees/Red-Tree.png",
+          "tile": "112×16",
+          "cells": 900,
+          "regularity": 0.69
+        },
+        {
+          "file": "case-studies/01/raw/E/_extracted/Legacy-Fantasy - High Forest 2.3/Trees/Yellow-Tree.png",
+          "tile": "112×16",
+          "cells": 900,
+          "regularity": 0.61
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "format": "atlas_only",
+      "loose_tiles": 0,
+      "atlas_sheets": 8,
+      "tiles_in_atlases": 6652,
+      "grid_atlases": 2,
+      "packed_atlases": 6,
+      "grids": [
+        {
+          "file": "case-studies/01/raw/F/_extracted/mainlev_build.png",
+          "tile": "80×48",
+          "cells": 252,
+          "regularity": 0.81
+        },
+        {
+          "file": "case-studies/01/raw/F/_extracted/props1.png",
+          "tile": "16×16",
+          "cells": 6400,
+          "regularity": 0.75
+        }
+      ]
+    },
+    {
+      "id": "G",
+      "format": "mixed",
+      "loose_tiles": 12,
+      "atlas_sheets": 16,
+      "tiles_in_atlases": 91188,
+      "grid_atlases": 9,
+      "packed_atlases": 7,
+      "grids": [
+        {
+          "file": "case-studies/01/raw/G/_extracted/48x48 resize/gentle animations (48x48 resize) v01.png",
+          "tile": "6×6",
+          "cells": 4992,
+          "regularity": 0.91
+        },
+        {
+          "file": "case-studies/01/raw/G/_extracted/48x48 resize/gentle animations (48x48 resize) v02.png",
+          "tile": "6×6",
+          "cells": 4992,
+          "regularity": 0.91
+        },
+        {
+          "file": "case-studies/01/raw/G/_extracted/48x48 resize/gentle animations (48x48 resize) v03.png",
+          "tile": "6×6",
+          "cells": 4992,
+          "regularity": 0.91
+        },
+        {
+          "file": "case-studies/01/raw/G/_extracted/48x48 resize/gentle forest (48x48 resize) v01.png",
+          "tile": "6×6",
+          "cells": 16384,
+          "regularity": 1
+        },
+        {
+          "file": "case-studies/01/raw/G/_extracted/48x48 resize/gentle forest (48x48 resize) v02.png",
+          "tile": "6×6",
+          "cells": 16384,
+          "regularity": 1
+        },
+        {
+          "file": "case-studies/01/raw/G/_extracted/48x48 resize/gentle forest (48x48 resize) v03.png",
+          "tile": "12×6",
+          "cells": 8192,
+          "regularity": 1
+        },
+        {
+          "file": "case-studies/01/raw/G/_extracted/gentle sheets/gentle forest v01.png",
+          "tile": "48×16",
+          "cells": 80,
+          "regularity": 0.6
+        },
+        {
+          "file": "case-studies/01/raw/G/_extracted/map samples/sample 1.png",
+          "tile": "4×4",
+          "cells": 34600,
+          "regularity": 1
+        },
+        {
+          "file": "case-studies/01/raw/G/_extracted/usage guides/stairsamples.png",
+          "tile": "16×16",
+          "cells": 572,
+          "regularity": 1
+        }
+      ]
+    },
+    {
+      "id": "H",
+      "format": "mixed",
+      "loose_tiles": 87,
+      "atlas_sheets": 2,
+      "tiles_in_atlases": 84,
+      "grid_atlases": 2,
+      "packed_atlases": 0,
+      "grids": [
+        {
+          "file": "case-studies/01/raw/H/_extracted/Sprites/14-TileSets/Decorations (32x32).png",
+          "tile": "21×32",
+          "cells": 60,
+          "regularity": 0.7
+        },
+        {
+          "file": "case-studies/01/raw/H/_extracted/Sprites/14-TileSets/Terrain (32x32).png",
+          "tile": "96×96",
+          "cells": 24,
+          "regularity": 1
+        }
+      ]
+    },
+    {
+      "id": "I",
+      "format": "atlas_only",
+      "loose_tiles": 0,
+      "atlas_sheets": 2,
+      "tiles_in_atlases": 0,
+      "grid_atlases": 0,
+      "packed_atlases": 2,
+      "grids": []
+    },
+    {
+      "id": "J",
+      "format": "loose_only",
+      "loose_tiles": 101,
+      "atlas_sheets": 0,
+      "tiles_in_atlases": 0,
+      "grid_atlases": 0,
+      "packed_atlases": 0,
+      "grids": []
+    }
+  ]
+}

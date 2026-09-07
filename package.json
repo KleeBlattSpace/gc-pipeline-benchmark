@@ -27,7 +27,12 @@
     "test:baseline": "node scripts/test-pipeline-on-perfect.mjs",
     "test": "tsx --test tests/*.test.ts",
     "case-audit": "tsx scripts/audit-delivery-format.ts",
-    "case-correlate": "tsx scripts/analyze-correlation.ts"
+    "case-correlate": "tsx scripts/analyze-correlation.ts",
+    "case-inventory": "node scripts/inventory-pack-images.mjs",
+    "case-atomize": "node scripts/atomize-cs01.mjs",
+    "case-fix": "node scripts/fix-pass-baseline.mjs",
+    "case-stratify": "node scripts/stratify-cs01.mjs",
+    "case-figures": "node scripts/make-cs01-figures.mjs"
   },
   "dependencies": {
     "fs-extra": "^11.2.0",
