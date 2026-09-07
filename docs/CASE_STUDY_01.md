@@ -1,6 +1,6 @@
-# Case Study 01 — Why the Most-Downloaded Packs ≠ Production-Ready
+# Case Study 01 — Great Assets ≠ Ready Games
 
-### We audited 10 of the most-downloaded free tilemap packs on itch.io (240 tiles) with a reproducible scoring pipeline. Here is what actually breaks — and what it takes to bring raw tiles up to shipping quality.
+### The expectation gap, measured: 240 tiles from the most-downloaded free tilemap packs on itch.io — what expert-made assets *demand from users* before gameplay can happen. (No, the packs aren't the problem. Readiness ≠ quality — a "Reject" tile can be beautiful art that simply isn't engine-ready yet.)
 
 > **⚠️ DATA STATUS: ILLUSTRATIVE — v0.9 draft.**
 > All numbers in this study are **placeholder values** that demonstrate format and method. They will be replaced by verified batch-review runs (`npm run benchmark` over the pack assets, plus Doctor passes) and re-published as `DATA STATUS: VERIFIED`. See [Reproduce this study](#7-reproduce-this-study--score-your-own-assets) and the [data provenance block](#9-limitations--data-provenance).
@@ -11,6 +11,8 @@
 
 ## 1. TL;DR
 
+- **Framing:** we never judge creators or packs. Expert-made assets encode years of craft — downloading them doesn't download the workflow. This study measures what assets *demand from users*, not how good they are.
+- **Pre-registered** ([§3.1](#31-pre-registered-hypotheses)): does popularity predict how much user-side work a pack demands? Hypotheses committed before the batch run.
 - We took **10 of the most-downloaded free tilemap packs on itch.io** (popularity-ranked pool of 100, license gate, max 2 packs per creator) and scored **240 tiles** through the [TileSmith GC-Pipeline](../README.md) — six metrics (Seam, Border, Artifact, Pattern, Fidelity, Textile), three gates (Production ≥ 92, Review 78–<92, Reject < 78).
 - **Illustrative result:** only **~41 %** of tiles passed the Production gate straight away. The rest carried fixable defects: broken seams at tile edges, darkened borders, watermark/compression artifacts, visible pattern repetition.
 - After a scripted fix pass (the pipeline's optimization runner; the same operations the TileFix Doctor exposes in [TileSmith Studio](https://tilesmith.kleeblatt.space)), **~88 %** passed — and the remaining tiles were re-scored **in regular CI**, not by our word.
@@ -23,6 +25,8 @@ Free asset packs are the backbone of indie game development. They carry massive 
 
 Download counts measure *popularity on the store page*. Engines measure *pixels at runtime*. Nothing in between measures **technical readiness for tiling** — that is the gap this study (and the benchmark behind it) addresses: a reproducible, six-metric definition of "production-ready" that you can run in your own CI, for free, on every pull request.
 
+The expectation gap is the story: people grab assets from creators who studied for years or built packs over decades, and expect to vibe their way to a finished game. The *taste* half of that expertise must be earned — but the mechanical half (cutting, naming, gating, formatting) is transferable to tooling. That division of labor is what this study makes visible.
+
 This study extends the benchmark's synthetic fixtures (which score *already-prepared* assets) with the question real projects face: **what state (and what *packaging*) do popular raw packs actually arrive in — and what does the journey from raw to production-ready look like, with numbers?**
 
 ## 3. Method
@@ -34,10 +38,21 @@ This study extends the benchmark's synthetic fixtures (which score *already-prep
 | **Scoring** | `Runner A` of the public benchmark: six metrics — Seam, Border, Artifact, Pattern, Fidelity, Textile — aggregated into a 0–100 score and three gates: **Production ≥ 92**, **Review 78–<92**, **Reject < 78**. |
 | **Fix pass** | `Runner B` pipeline-optimization steps (seam healing, border normalization, artifact removal, variation passes), ordered by dependency with degradation penalties — the same operation set the TileFix Doctor exposes in TileSmith Studio. |
 | **Format audit** | `scripts/audit-delivery-format.ts`: gradient-energy grid detection on every shipped image → atlas vs loose-tile classification, tile size, grid regularity, cell counts. |
+| **Correlation** | pre-registered hypotheses (§3.1); `scripts/analyze-correlation.ts` — Spearman ρ, seeded permutation p, exploratory partial ρ controlling atlas-share |
 | **Verification** | Every "after" tile re-scored cold by Runner A. No before/after pairs from the same run; gates never re-tuned between phases. |
 | **Aggregation** | Mean score per tile → gate counts per pack → pooled distribution. One tile can carry multiple defect classes (percentages sum > 100 %). |
 
 Pack identities are pseudonymized (Pack A–J) pending license review per pack; sources and licenses will be listed in `case-studies/01/SOURCES.md` before the VERIFIED release, following the pattern of `assets/base/SOURCES.md`.
+
+### 3.1 Pre-registered hypotheses
+
+Registered before the batch run (see git history); analysis script: `scripts/analyze-correlation.ts` (`npm run case-correlate`).
+
+- **H1** — the more popular the pack, the higher its *user-side readiness demand* (share of tiles below the Production gate before fixing).
+- **H2** — any H1 association is **mediated by delivery format** (atlas-orientation), not by craftsmanship.
+- **H3** — exceptions exist: popular packs that ship beginner-ready — proving the atomization barrier is a *choice*, not a law.
+
+Reporting rules: ρ and p always together; n = 10 is pilot-grade; a null result is reported as a null. Direction of interpretation: readiness demand — never creator fault.
 
 ## 4. Findings *(all numbers illustrative)*
 
@@ -90,7 +105,7 @@ Prevalence among the 142 tiles that did **not** pass initially (a tile can carry
 
 ### 4.4 The delivery-format audit — Gap 0: atomization *(illustrative)*
 
-Before quality is even measurable, most packs must be *graphically reverse-engineered*: tiles arrive fused into atlas sheets, and someone has to find the grid, cut, crop, and name the pieces before an engine — a mathematical machine that has no idea what the image depicts — can consume them.
+Before quality is even measurable, most packs must be *graphically reverse-engineered*: tiles arrive fused into atlas sheets, and someone has to find the grid, cut, crop, and name the pieces before an engine — a mathematical machine that has no idea what the image depicts — can consume them. No fault on the creator side: sheets are rational pro workflow. The interesting object is the *expectation* — grabbing expert-made assets feels like it should produce expert-grade games; mechanically it can't, until the expert-side work happens somewhere.
 
 | Pack | Format | Loose tiles | Atlas sheets | Grid-aligned | Packed | Tiles in sheets |
 |---|---|---:|---:|---:|---:|---:|
@@ -109,6 +124,12 @@ Before quality is even measurable, most packs must be *graphically reverse-engin
 - **The expert's counterpoint.** Hand-drawn and hand-assembled stays better at the top end — but mass-tagging and formatting hundreds of hand-drawn tiles into engine-ready data is precisely the work professional studios outsource. It is automatable drudgery on both ends.
 
 That is Gap 0 for tooling: the pipeline's Upload step (raster/grid detection → atomize) exists so that scoring, fixing, and mapping start from *tiles*, not from a wall of fused pixels.
+
+### 4.5 Does popularity predict readiness demand? *(pre-registered H1 — illustrative until the batch run)*
+
+**ρ = +0.4, p = 0.12 (n = 10)** *(placeholder — output of `npm run case-correlate` pastes over this, scatter figure included)*
+
+Guardrails: pilot-grade n; ρ reported with p, never alone. If the verified run shows a null, the honest headline is *"popularity does not predict readiness demand"*; if H1 holds, the soft form only — *"popular, expert-oriented packs tend to demand more user-side readiness work"* — and the exceptions (popular *and* beginner-ready) get named as proof the barrier is a choice.
 
 ## 5. Three tiles, three journeys
 
@@ -194,7 +215,7 @@ The loop closes where it started: fixed tiles re-scored by the free action in yo
 | Aggregation logic | mean per-tile score → gate counts; multi-defect counting allowed |
 | Raw images | never mirrored in this repository (per repo policy) |
 
-**Limitations:** illustrative numbers until the batch runs land; synthetic fixtures validate the scorer, not the market; six metrics cover technical readiness, not art direction; the format audit's grid detection is a transparent heuristic (uniform grids, anchored at origin) — padded or multi-grid sheets may undercount cells; the "why creators ship atlases" reading in §4.4 is interpretation, not survey data; pseudonymization trades specificity for license safety until per-pack review completes; n = 10 packs is a pilot — Field Study 01's 50-pack sweep is the follow-up.
+**Limitations:** illustrative numbers until the batch runs land; synthetic fixtures validate the scorer, not the market; six metrics cover technical readiness, never artistic value — a Reject tile can be great art; the format audit's grid detection is a transparent heuristic (uniform grids, anchored at origin) — padded or multi-grid sheets may undercount cells; the "why creators ship atlases" reading in §4.4 is interpretation, not survey data; pseudonymization trades specificity for license safety until per-pack review completes; n = 10 packs is a pilot — Field Study 01's 50-pack sweep is the follow-up.
 
 ## 10. Credits & license
 

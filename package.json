@@ -26,7 +26,8 @@
     "assets:verify": "python3 scripts/verify-pixel-base-tiles.py",
     "test:baseline": "node scripts/test-pipeline-on-perfect.mjs",
     "test": "tsx --test tests/*.test.ts",
-    "case-audit": "tsx scripts/audit-delivery-format.ts"
+    "case-audit": "tsx scripts/audit-delivery-format.ts",
+    "case-correlate": "tsx scripts/analyze-correlation.ts"
   },
   "dependencies": {
     "fs-extra": "^11.2.0",

@@ -22,7 +22,7 @@ graph LR
 |---|---|
 | score tiles in your pull requests, free | [TileSmith QC](https://github.com/KleeBlattSpace/tilesmith-actions) (GitHub Action, 6 lines of YAML) |
 | check whether the scoring is legitimate | this repository — fixtures, ground truth, `npm run benchmark` |
-| see what it takes to bring raw assets up to gate | [Case Study 01](docs/CASE_STUDY_01.md) — *Why 4.9 ★ ≠ Production-Ready* |
+| see what it takes to bring raw assets up to gate | [Case Study 01](docs/CASE_STUDY_01.md) — *Great Assets ≠ Ready Games: the expectation gap, measured* |
 | run the fix pass yourself | [TileSmith Studio](https://tilesmith.kleeblatt.space) — local-first, no account needed to start |
 
 ## Problem
@@ -79,7 +79,7 @@ The synthetic fixtures in `public/benchmark/` validate the *scorer* on prepared 
 
 | ID | Study | Status |
 |---|---|---|
-| [CS-01](docs/CASE_STUDY_01.md) | **Why the Most-Downloaded Packs ≠ Production-Ready** — auditing 10 free itch.io tilemap packs (240 tiles): defect taxonomy **and the delivery-format audit (Gap 0: atlas sheets vs ready tiles)** | draft (illustrative data, marked) → VERIFIED after batch runs |
+| [CS-01](docs/CASE_STUDY_01.md) | **Great Assets ≠ Ready Games** — the expectation gap, measured: 240 tiles from the 10 most-downloaded free itch.io tilemap packs · defect taxonomy · delivery-format audit (Gap 0) · pre-registered popularity-vs-readiness-demand correlation | draft (illustrative data, marked) → VERIFIED after batch runs |
 | — | Template & editorial rules for CS-02…N | [`docs/CASE_STUDY_TEMPLATE.md`](docs/CASE_STUDY_TEMPLATE.md) |
 
 Each study carries a data-provenance block (sample size, selection criteria, dataset version, pipeline version, aggregation logic) and publishes aggregate data only — raw images are never mirrored in this repository. Propose a dataset for a future study via a GitHub issue; contributions must respect the license notes and the separation between public fixtures and proprietary parameters.
