@@ -1,0 +1,137 @@
+{
+  "study": "CS-01",
+  "generated_at": "2026-09-07",
+  "what": "Gap-0 (Asset-Chaos) per-pack readiness against the three TileSmith steps: (1) graphical reverse-engineering — is the grid known? (2) automated logic — are autotile/blob rules shipped, and in what form? (3) tagging/export — is machine-readable metadata shipped? All fields verified by hand during the analysis pass; counts cross-checked with registry.json and the extraction inventory.",
+  "packs": [
+    {
+      "id": "A",
+      "tile_sheets": 14,
+      "cell_px": 16,
+      "addressable_cells": 673,
+      "nonempty_pool": 587,
+      "loose_tiles": 0,
+      "grid_source": "human overlay-verified (16px family)",
+      "machine_metadata_files": 0,
+      "blob_rules": "picture-only (Tilesets/Bitmask references 1.png, 2.png + gif — 16-tile reference diagrams; user must implement the bitmask system by hand)",
+      "duplicate_files": "7 byte-identical pairs (space vs underscore names)"
+    },
+    {
+      "id": "B",
+      "tile_sheets": 16,
+      "cell_px": 16,
+      "addressable_cells": 3304,
+      "nonempty_pool": 2839,
+      "loose_tiles": 0,
+      "grid_source": "human overlay-verified (16px family)",
+      "machine_metadata_files": 0,
+      "blob_rules": "none (autotile blob layouts shipped as pixels only, no rules)",
+      "duplicate_files": "1 byte-identical pair (present sprites)"
+    },
+    {
+      "id": "C",
+      "tile_sheets": 2,
+      "cell_px": 16,
+      "addressable_cells": 1124,
+      "nonempty_pool": 562,
+      "loose_tiles": 0,
+      "grid_source": "human overlay-verified (16px family)",
+      "machine_metadata_files": 0,
+      "blob_rules": "none",
+      "duplicate_files": "0"
+    },
+    {
+      "id": "D",
+      "tile_sheets": 3,
+      "cell_px": 32,
+      "addressable_cells": 384,
+      "nonempty_pool": 173,
+      "loose_tiles": 0,
+      "grid_source": "human overlay-verified (32px; features span 2x2 at 16px)",
+      "machine_metadata_files": 0,
+      "blob_rules": "none",
+      "duplicate_files": "0"
+    },
+    {
+      "id": "E",
+      "tile_sheets": 3,
+      "cell_px": 16,
+      "addressable_cells": 2004,
+      "nonempty_pool": 1069,
+      "loose_tiles": 0,
+      "grid_source": "human overlay-verified (16px family)",
+      "machine_metadata_files": 0,
+      "blob_rules": "none",
+      "duplicate_files": "0"
+    },
+    {
+      "id": "F",
+      "tile_sheets": 1,
+      "cell_px": 16,
+      "addressable_cells": 4096,
+      "nonempty_pool": 828,
+      "loose_tiles": 0,
+      "grid_source": "human overlay-verified (16px family)",
+      "machine_metadata_files": 0,
+      "blob_rules": "none",
+      "duplicate_files": "0"
+    },
+    {
+      "id": "G",
+      "tile_sheets": 2,
+      "cell_px": "16 (+32 sheet)",
+      "addressable_cells": 260,
+      "nonempty_pool": 227,
+      "loose_tiles": 0,
+      "grid_source": "tsx metadata (tilewidth) + visual overlay-verified",
+      "machine_metadata_files": 51,
+      "blob_rules": "picture (usage guides + tree wall autotile guide) AND machine-readable (wangsets in gentle forest v01-v10.tsx + sample .tmx map)",
+      "duplicate_files": "0 (v01-v03 are palette variants, not duplicates)"
+    },
+    {
+      "id": "H",
+      "tile_sheets": 2,
+      "cell_px": 32,
+      "addressable_cells": 289,
+      "nonempty_pool": 113,
+      "loose_tiles": 0,
+      "grid_source": "filename (32x32) + visual overlay-verified",
+      "machine_metadata_files": 0,
+      "blob_rules": "none",
+      "duplicate_files": "0"
+    },
+    {
+      "id": "I",
+      "tile_sheets": 2,
+      "cell_px": 16,
+      "addressable_cells": 2048,
+      "nonempty_pool": 740,
+      "loose_tiles": 0,
+      "grid_source": "human overlay-verified (16px; heuristic detector failed: sparse content)",
+      "machine_metadata_files": 0,
+      "blob_rules": "none",
+      "duplicate_files": "0"
+    },
+    {
+      "id": "J",
+      "tile_sheets": 0,
+      "cell_px": "n/a (loose 64px isometric blocks)",
+      "addressable_cells": 0,
+      "nonempty_pool": 101,
+      "loose_tiles": 101,
+      "grid_source": "n/a — pre-cut, no atomization needed",
+      "machine_metadata_files": 0,
+      "blob_rules": "n/a — isometric blocks, no blob system",
+      "duplicate_files": "0"
+    }
+  ],
+  "pooled": {
+    "tile_sheets": 45,
+    "addressable_cells": 14182,
+    "nonempty_pool": 7138,
+    "loose_tiles": 101,
+    "packs_with_machine_metadata": 1,
+    "packs_with_blob_rules_picture": 2,
+    "packs_with_blob_rules_machine": 1,
+    "packs_grid_known_without_reverse_engineering": 1
+  }
+}

@@ -79,7 +79,7 @@ The synthetic fixtures in `public/benchmark/` validate the *scorer* on prepared 
 
 | ID | Study | Status |
 |---|---|---|
-| [CS-01](docs/CASE_STUDY_01.md) | **Great Assets ≠ Ready Games** — the expectation gap, measured: 240 tiles from 10 top free itch.io tilemap packs (682 images inventoried) · stratified pilot scores with confound analysis · delivery-format audit (Gap 0: 99.3 % of tile content locked in sheets) · pre-registered correlation (null, n = 8) | STRUCTURAL v1.0 (real data, public-baseline scorer) → VERIFIED after core + Doctor rerun |
+| [CS-01](docs/CASE_STUDY_01.md) | **Great Assets ≠ Ready Games** — the expectation gap, measured: 240 tiles from 10 top free itch.io tilemap packs (682 images inventoried) · asset-chaos hurdle counted in work units against the 3 TileSmith steps (Gap 0: 99.3 % of tile content locked in sheets) · stratified pilot scores with confound analysis · pre-registered correlation (null, n = 8) · timed trial pre-registered as follow-up | STRUCTURAL v1.1 (real data, public-baseline scorer) → VERIFIED after core + Doctor rerun |
 | — | Template & editorial rules for CS-02…N | [`docs/CASE_STUDY_TEMPLATE.md`](docs/CASE_STUDY_TEMPLATE.md) |
 
 Each study carries a data-provenance block (sample size, selection criteria, dataset version, pipeline version, aggregation logic) and publishes aggregate data only — raw images are never mirrored in this repository. Propose a dataset for a future study via a GitHub issue; contributions must respect the license notes and the separation between public fixtures and proprietary parameters.
