@@ -63,9 +63,10 @@ const MAX_TILES_PER_PACK = 200;
 
 interface PackEntry {
   id: string;                       // "A" … (pseudonym until license review)
-  label?: string;
-  rating?: number;                  // store rating, e.g. 4.9
-  ratings_count?: number;
+  name?: string;
+  creator?: string;
+  rank?: number;                    // popularity rank in the source pool (itch browse order)
+  downloads?: number;               // where the source shows it (itch pack pages)
   source_url?: string;              // filled in SOURCES.md on VERIFIED release
   license?: string;
   before_dir: string;               // raw tiles (gitignored, never committed)
@@ -414,7 +415,7 @@ function renderTables(manifest: Manifest, before: TileResult[], after: TileResul
 
   lines.push('### 4.3 Per-pack view');
   lines.push('');
-  lines.push('| Pack | Store rating | Tiles | Avg before | Worst defect class | Avg after |');
+  lines.push('| Pack | Pop. rank | Tiles | Avg before | Worst defect class | Avg after |');
   lines.push('|---|---:|---:|---:|---|---:|');
   for (const pack of manifest.packs) {
     const pb = before.filter((r) => r.pack === pack.id);
@@ -422,7 +423,8 @@ function renderTables(manifest: Manifest, before: TileResult[], after: TileResul
     const ab = aggregate(pb);
     const aa = aggregate(pa);
     const worst = defectTaxonomy(pb)[0]?.metric ?? '—';
-    lines.push(`| ${pack.id} | ${pack.rating?.toFixed(1) ?? '—'} ★ | ${pb.length} | ${ab.avg.toFixed(1)} | ${worst} | ${pa.length ? aa.avg.toFixed(1) : 'pending' } |`);
+    const rank = pack.rank ? `#${pack.rank}` : '—';
+    lines.push(`| ${pack.id} | ${rank} | ${pb.length} | ${ab.avg.toFixed(1)} | ${worst} | ${pa.length ? aa.avg.toFixed(1) : 'pending' } |`);
   }
   lines.push(`| **Σ / ø** | | **${b.tiles}** | **${b.avg.toFixed(1)}** | | ${a.tiles ? `**${a.avg.toFixed(1)}**` : 'pending'} |`);
   lines.push('');
@@ -615,8 +617,8 @@ async function selfTest() {
     study: 'SELFTEST',
     expected_tiles: 20,
     packs: [
-      { id: 'ST-A', rating: 4.9, before_dir: path.join(tmp, 'raw', 'ST-A'), after_dir: fixedA },
-      { id: 'ST-B', rating: 4.7, before_dir: path.join(tmp, 'raw', 'ST-B') },
+      { id: 'ST-A', rank: 1, downloads: 250000, before_dir: path.join(tmp, 'raw', 'ST-A'), after_dir: fixedA },
+      { id: 'ST-B', rank: 2, downloads: 180000, before_dir: path.join(tmp, 'raw', 'ST-B') },
     ],
   };
   const manifestPath = path.join(tmp, 'manifest.json');

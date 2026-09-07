@@ -1,6 +1,6 @@
-# Case Study 01 — Why 4.9 ★ ≠ Production-Ready
+# Case Study 01 — Why the Most-Downloaded Packs ≠ Production-Ready
 
-### We audited 10 of the highest-rated free tile packs (240 tiles) with a reproducible scoring pipeline. Here is what actually breaks — and what it takes to bring raw tiles up to shipping quality.
+### We audited 10 of the most-downloaded free tilemap packs on itch.io (240 tiles) with a reproducible scoring pipeline. Here is what actually breaks — and what it takes to bring raw tiles up to shipping quality.
 
 > **⚠️ DATA STATUS: ILLUSTRATIVE — v0.9 draft.**
 > All numbers in this study are **placeholder values** that demonstrate format and method. They will be replaced by verified batch-review runs (`npm run benchmark` over the pack assets, plus Doctor passes) and re-published as `DATA STATUS: VERIFIED`. See [Reproduce this study](#7-reproduce-this-study--score-your-own-assets) and the [data provenance block](#9-limitations--data-provenance).
@@ -11,16 +11,16 @@
 
 ## 1. TL;DR
 
-- We took **10 free, community-loved tile packs** (store ratings ≥ 4.7 ★) and scored **240 tiles** through the [TileSmith GC-Pipeline](../README.md) — six metrics (Seam, Border, Artifact, Pattern, Fidelity, Textile), three gates (Production ≥ 92, Review 78–<92, Reject < 78).
+- We took **10 of the most-downloaded free tilemap packs on itch.io** (popularity-ranked pool of 100, license gate, max 2 packs per creator) and scored **240 tiles** through the [TileSmith GC-Pipeline](../README.md) — six metrics (Seam, Border, Artifact, Pattern, Fidelity, Textile), three gates (Production ≥ 92, Review 78–<92, Reject < 78).
 - **Illustrative result:** only **~41 %** of tiles passed the Production gate straight away. The rest carried fixable defects: broken seams at tile edges, darkened borders, watermark/compression artifacts, visible pattern repetition.
 - After a scripted fix pass (the pipeline's optimization runner; the same operations the TileFix Doctor exposes in [TileSmith Studio](https://tilesmith.kleeblatt.space)), **~88 %** passed — and the remaining tiles were re-scored **in regular CI**, not by our word.
 - Even if you never use TileSmith: the [defect taxonomy](#42-the-defect-taxonomy) and the [7-point shipping checklist](#6-the-7-point-checklist-before-you-ship-a-free-pack) are usable with any tooling.
 
 ## 2. Why this study matters (even without TileSmith)
 
-Free asset packs are the backbone of indie game development. They carry glowing ratings, they ship thousands of games — and they quietly break renders: 1-pixel seams that flash when the camera scrolls, halos around trees composited on any background but the preview, watermarks from an AI generation step nobody swept up.
+Free asset packs are the backbone of indie game development. They carry massive download counts, they ship thousands of games — and they quietly break renders: 1-pixel seams that flash when the camera scrolls, halos around trees composited on any background but the preview, watermarks from an AI generation step nobody swept up.
 
-Ratings measure *vibes in the store page*. Engines measure *pixels at runtime*. Nothing in between measures **technical readiness for tiling** — that is the gap this study (and the benchmark behind it) addresses: a reproducible, six-metric definition of "production-ready" that you can run in your own CI, for free, on every pull request.
+Download counts measure *popularity on the store page*. Engines measure *pixels at runtime*. Nothing in between measures **technical readiness for tiling** — that is the gap this study (and the benchmark behind it) addresses: a reproducible, six-metric definition of "production-ready" that you can run in your own CI, for free, on every pull request.
 
 This study extends the benchmark's synthetic fixtures (which score *already-prepared* assets) with the question real projects face: **what state do popular raw packs actually arrive in — and what does the journey from raw to production-ready look like, with numbers?**
 
@@ -28,7 +28,7 @@ This study extends the benchmark's synthetic fixtures (which score *already-prep
 
 | Step | Detail |
 |---|---|
-| **Selection** | 10 free tile packs from public marketplaces, ratings ≥ 4.7 ★ with ≥ 100 ratings, actively used (download/download-count thresholds recorded per pack). *Selection criteria fixed before scoring.* |
+| **Selection** | Top pool: itch.io browse — free · 2D · tilemap, popularity order (top 100). Pilot = first 10 passing the license gate (explicit license statement), max 2 packs per creator. *Selection criteria fixed before scoring.* |
 | **Sample** | 240 tiles: 180 × 16×16 pixel-art topdown tiles, 60 × 64×64-normalized HD tiles (from 1024×1024 sources) — mirroring the benchmark's two dataset classes. |
 | **Scoring** | `Runner A` of the public benchmark: six metrics — Seam, Border, Artifact, Pattern, Fidelity, Textile — aggregated into a 0–100 score and three gates: **Production ≥ 92**, **Review 78–<92**, **Reject < 78**. |
 | **Fix pass** | `Runner B` pipeline-optimization steps (seam healing, border normalization, artifact removal, variation passes), ordered by dependency with degradation penalties — the same operation set the TileFix Doctor exposes in TileSmith Studio. |
@@ -49,7 +49,7 @@ Pack identities are pseudonymized (Pack A–J) pending license review per pack; 
 | ❌ Reject | < 78 | 60 | 25.0 % | 7 | 2.9 % |
 | **Average score** | | **83.9** | | **94.8** | |
 
-**Read:** high store rating did not predict technical readiness. The fix pass moved the bulk of Review tiles into Production; the residual Reject tiles were mostly destructive cases (baked-in compression damage, source resolution too low for 64×64 normalization) where "fix" would mean "repaint" — an honest pipeline reports that instead of over-processing.
+**Read:** high download counts did not predict technical readiness. The fix pass moved the bulk of Review tiles into Production; the residual Reject tiles were mostly destructive cases (baked-in compression damage, source resolution too low for 64×64 normalization) where "fix" would mean "repaint" — an honest pipeline reports that instead of over-processing.
 
 ### 4.2 The defect taxonomy
 
@@ -67,23 +67,23 @@ Prevalence among the 142 tiles that did **not** pass initially (a tile can carry
 **Three surprises worth knowing:**
 
 1. **Seams beat watermarks.** The internet's favorite defect (AI watermarks) was only 5th. The silent #1 was seams — invisible in store previews (tiles are shown alone), obvious in-engine (tiles are shown *together*).
-2. **Ratings and readiness don't correlate.** The 4.9 ★ pack was *not* the cleanest; the 4.7 ★ pack was mid-field. Nothing in a store page measures the pixel edge.
+2. **Downloads and readiness don't correlate.** The most-downloaded pack was *not* the cleanest; mid-popularity packs landed mid-field. Nothing in a download counter measures the pixel edge.
 3. **Pixel art fails differently than HD.** 16×16 tiles failed mostly on Seam/Border (hand-editing mistakes); 64×64-normalized HD tiles failed mostly on Artifact/Pattern (generation and downscale damage). Your QC should gate both classes — one checklist is not enough.
 
 ### 4.3 Per-pack view
 
-| Pack | Store rating | Tiles | Avg before | Worst defect class | Avg after |
+| Pack | Pop. rank | Tiles | Avg before | Worst defect class | Avg after |
 |---|---:|---:|---:|---|---:|
-| A | 4.9 ★ | 24 | 85.1 | Border | 95.2 |
-| B | 4.9 ★ | 24 | 81.4 | Seam | 94.0 |
-| C | 4.8 ★ | 24 | 86.7 | Pattern | 96.1 |
-| D | 4.8 ★ | 24 | 79.8 | Artifact | 92.3 |
-| E | 4.8 ★ | 24 | 88.0 | Fidelity | 96.4 |
-| F | 4.7 ★ | 24 | 82.2 | Seam | 93.8 |
-| G | 4.7 ★ | 24 | 77.9 | Artifact | 90.7 |
-| H | 4.7 ★ | 24 | 86.3 | Border | 95.5 |
-| I | 4.7 ★ | 24 | 84.5 | Pattern | 94.9 |
-| J | 4.7 ★ | 24 | 87.9 | Textile | 96.8 |
+| A | #1 | 24 | 85.1 | Border | 95.2 |
+| B | #2 | 24 | 81.4 | Seam | 94.0 |
+| C | #3 | 24 | 86.7 | Pattern | 96.1 |
+| D | #4 | 24 | 79.8 | Artifact | 92.3 |
+| E | #5 | 24 | 88.0 | Fidelity | 96.4 |
+| F | #6 | 24 | 82.2 | Seam | 93.8 |
+| G | #7 | 24 | 77.9 | Artifact | 90.7 |
+| H | #8 | 24 | 86.3 | Border | 95.5 |
+| I | #9 | 24 | 84.5 | Pattern | 94.9 |
+| J | #10 | 24 | 87.9 | Textile | 96.8 |
 | **Σ / ø** | | **240** | **83.9** | | **94.8** |
 
 ## 5. Three tiles, three journeys
@@ -163,7 +163,7 @@ The loop closes where it started: fixed tiles re-scored by the free action in yo
 |---|---|
 | Data status | ⚠️ **ILLUSTRATIVE (v0.9 draft)** — placeholders, not measurements |
 | Sample size | 240 tiles, 10 packs (pseudonymized pending license review) |
-| Selection criteria | free packs, rating ≥ 4.7 ★, ≥ 100 ratings; fixed before scoring |
+| Selection criteria | itch.io free · 2D · tilemap, popularity order; license gate; max 2 packs/creator; fixed before scoring |
 | Dataset version | benchmark-v2 fixture set (120 CC0 fixtures, 16×16 + 64×64 classes) |
 | Pipeline version | `tilefix-core` submodule commit — *to be pinned at VERIFIED release* |
 | Aggregation logic | mean per-tile score → gate counts; multi-defect counting allowed |

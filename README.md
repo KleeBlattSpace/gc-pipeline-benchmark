@@ -79,7 +79,7 @@ The synthetic fixtures in `public/benchmark/` validate the *scorer* on prepared 
 
 | ID | Study | Status |
 |---|---|---|
-| [CS-01](docs/CASE_STUDY_01.md) | **Why 4.9 ★ ≠ Production-Ready** — auditing 10 free asset packs (240 tiles) | draft (illustrative data, marked) → VERIFIED after batch runs |
+| [CS-01](docs/CASE_STUDY_01.md) | **Why the Most-Downloaded Packs ≠ Production-Ready** — auditing 10 free itch.io tilemap packs (240 tiles) | draft (illustrative data, marked) → VERIFIED after batch runs |
 | — | Template & editorial rules for CS-02…N | [`docs/CASE_STUDY_TEMPLATE.md`](docs/CASE_STUDY_TEMPLATE.md) |
 
 Each study carries a data-provenance block (sample size, selection criteria, dataset version, pipeline version, aggregation logic) and publishes aggregate data only — raw images are never mirrored in this repository. Propose a dataset for a future study via a GitHub issue; contributions must respect the license notes and the separation between public fixtures and proprietary parameters.
